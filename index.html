@@ -1,12 +1,15 @@
 <!doctype html>
-<html>
+<html ng-app>
 <head>
    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+   <script src="js/index.js"></script>
 
    <title>Age of Empires II Tech Tree</title>
 </head>
 <body>
-
+   <div ng-controller="civs">
+      <select ng-model="civilization" ng-options="c.name for c in civilizations" />
+   </div>
 </body>
 </html>

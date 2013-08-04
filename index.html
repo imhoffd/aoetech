@@ -9,7 +9,7 @@
 </head>
 <body>
    <div ng-controller="civs">
-      <select ng-model="civilization" ng-options="c.name for c in civilizations" />
+      <select ng-model="civilization" ng-options="c.value as c.name for c in civilizations" />
    </div>
 </body>
 </html>

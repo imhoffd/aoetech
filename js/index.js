@@ -1,24 +1,24 @@
 function civs($scope) {
    $scope.civilizations = [
-      {'name': 'Aztecs'},
-      {'name': 'Britons'},
-      {'name': 'Byzantines'},
-      {'name': 'Celts'},
-      {'name': 'Chinese'},
-      {'name': 'Franks'},
-      {'name': 'Goths'},
-      {'name': 'Huns'},
-      {'name': 'Japanese'},
-      {'name': 'Koreans'},
-      {'name': 'Mayans'},
-      {'name': 'Mongols'},
-      {'name': 'Persians'},
-      {'name': 'Saracens'},
-      {'name': 'Spanish'},
-      {'name': 'Teutons'},
-      {'name': 'Turks'},
-      {'name': 'Vikings'}
+      {'value': 'Aztecs', 'name': 'Aztecs'},
+      {'value': 'Britons', 'name': 'Britons'},
+      {'value': 'Byzantines', 'name': 'Byzantines'},
+      {'value': 'Celts', 'name': 'Celts'},
+      {'value': 'Chinese', 'name': 'Chinese'},
+      {'value': 'Franks', 'name': 'Franks'},
+      {'value': 'Goths', 'name': 'Goths'},
+      {'value': 'Huns', 'name': 'Huns'},
+      {'value': 'Japanese', 'name': 'Japanese'},
+      {'value': 'Koreans', 'name': 'Koreans'},
+      {'value': 'Mayans', 'name': 'Mayans'},
+      {'value': 'Mongols', 'name': 'Mongols'},
+      {'value': 'Persians', 'name': 'Persians'},
+      {'value': 'Saracens', 'name': 'Saracens'},
+      {'value': 'Spanish', 'name': 'Spanish'},
+      {'value': 'Teutons', 'name': 'Teutons'},
+      {'value': 'Turks', 'name': 'Turks'},
+      {'value': 'Vikings', 'name': 'Vikings'}
    ];
    
-   $scope.civilization = $scope.civilizations[0];
+   $scope.civilization = $scope.civilizations[0].value;
 }

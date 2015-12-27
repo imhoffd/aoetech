@@ -1,0 +1,28 @@
+{
+  "name": "aoetech",
+  "version": "0.0.0",
+  "description": "Canvas version of Age of Empires technology tree.",
+  "main": "index.html",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwieeb/aoetech.git"
+  },
+  "author": "",
+  "contributors": [
+    "Daniel Imhoff <dwieeb@gmail.com>",
+    "Stephen Corcoran <corcorans13@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwieeb/aoetech/issues"
+  }
+}

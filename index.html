@@ -1,25 +1,30 @@
 <!doctype html>
-<html ng-app>
-<head>
-   <link rel="stylesheet" type="text/css" href="css/style.css" />
+<html>
+    <head>
+        <title>AOE II Technology Tree</title>
 
-   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-   <script src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-   <title>AOE II Technology Tree</title>
-</head>
-<body>
-   <div id="header">
-      <h1>Age of Empires II Technology Tree</h1>
-   </div>
-   <div id="container">
-      <div id="game_civs">
-         Game Civilizations
-      </div>
-      <div ng-controller="civs">
-         <select ng-model="civilization" ng-options="c.value as c.name for c in civilizations" />
-      </div>
-   </div>
-</body>
+        <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+        <script>
+            System.config({
+                packages: {
+                    app: {
+                        format: 'register',
+                        defaultExtension: 'js'
+                    }
+                }
+            });
+
+            System.import('app/boot')
+                .then(null, console.error.bind(console));
+        </script>
+    </head>
+    <body>
+        <aoetech>Loading...</aoetech>
+    </body>
 </html>

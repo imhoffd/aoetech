@@ -3,12 +3,6 @@
   "version": "0.0.0",
   "description": "Canvas version of Age of Empires technology tree.",
   "main": "index.html",
-  "dependencies": {
-    "babel-core": "^6.3.26",
-    "babel-loader": "^6.2.0",
-    "webpack": "^1.12.9"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

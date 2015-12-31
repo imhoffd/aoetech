@@ -5,7 +5,11 @@
   "main": "index.html",
   "scripts": {
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "sass": "node-sass ./scss/main.scss ./css/bundle.css",
+    "sass:w": "node-sass -w ./scss/main.scss ./css/bundle.css",
+    "build": "concurrent \"npm run tsc\" \"npm run sass\" ",
+    "build:w": "concurrent \"npm run tsc:w\" \"npm run sass:w\" "
   },
   "repository": {
     "type": "git",
@@ -30,6 +34,8 @@
     "zone.js": "^0.5.10"
   },
   "devDependencies": {
+    "concurrently": "^1.0.0",
+    "node-sass": "^3.4.2",
     "typescript": "^1.7.5"
   }
 }

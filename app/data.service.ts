@@ -4,15 +4,22 @@ import {Observable} from 'rxjs/Observable';
 
 @Injectable()
 export class DataService {
-    private http: Http;
-    private data$: Observable<Response>;
+    private _dataPromise: Promise<Object>;
 
-    constructor(http: Http) {
-        this.http = http;
-        this.data$ = this.http.get('/app/data.json');
-    }
+    constructor(private _http: Http) { }
 
-    public getRaw() : Observable<Object> {
-        return this.data$.map(res => res.json());
+    public getData() : Promise<Object> {
+        if (this._dataPromise === undefined) {
+            this._dataPromise = new Promise<Object>(resolve =>
+                this._http.get('/app/data.json')
+                    .map(res => res.json())
+                    .subscribe(
+                        data => resolve(data),
+                        err => console.error(err)
+                    )
+            );
+        }
+
+        return this._dataPromise;
     }
 }

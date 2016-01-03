@@ -1,15 +1,21 @@
 import 'rxjs/add/operator/map';
-import {Component} from 'angular2/core';
+import {Component, OnInit} from 'angular2/core';
 import {DataService} from './data.service';
+import {TreeComponent} from './tree.component';
 
 @Component({
     selector: 'aoetech',
-    template: '<h1>Age of Empires II Tech Tree</h1>',
-    providers: [DataService]
+    template: `
+        <h1>Age of Empires II Tech Tree</h1>
+        <tree></tree>
+        `,
+    providers: [DataService],
+    directives: [TreeComponent]
 })
-export class AppComponent {
-    constructor(dataService: DataService) {
-        dataService.getRaw()
-            .subscribe(data => console.log(data), err => console.error(err));
+export class AppComponent implements OnInit {
+    constructor(private _dataService: DataService) { }
+
+    ngOnInit() {
+        this._dataService.getData().then(data => console.log(data));
     }
 }

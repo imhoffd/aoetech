@@ -6826,5 +6826,239 @@
             },
             "type": "technology"
         }
+    },
+    "technology-tree": {
+        "barracks": {
+            "archery-range": {
+                "archer": {
+                    "crossbowman": {
+                        "arbalest": null
+                    }
+                },
+                "cavalry-archer": {
+                    "heavy-cavalry-archer": null
+                },
+                "hand-cannoneer": null,
+                "parthian-tactics": null,
+                "skirmisher": {
+                    "elite-skirmisher": null
+                },
+                "thumb-ring": null
+            },
+            "arson": null,
+            "eagle-scout": {
+                "eagle-warrior": {
+                    "elite-eagle-warrior": null
+                }
+            },
+            "militia": {
+                "man-at-arms": {
+                    "long-swordsman": {
+                        "two-handed-swordsman": {
+                            "champion": null
+                        }
+                    }
+                }
+            },
+            "spearman": {
+                "pikeman": {
+                    "halberdier": null
+                }
+            },
+            "squires": null,
+            "stable": {
+                "bloodlines": null,
+                "camel": {
+                    "heavy-camel": null
+                },
+                "husbandry": null,
+                "knight": {
+                    "cavalier": {
+                        "paladin": null
+                    }
+                },
+                "scout-cavalry": {
+                    "light-cavalry": {
+                        "hussar": null
+                    }
+                }
+            },
+            "tracking": null
+        },
+        "blacksmith": {
+            "fletching": {
+                "bodkin-arrow": {
+                    "bracer": null
+                }
+            },
+            "forging": {
+                "iron-casting": {
+                    "blast-furnace": null
+                }
+            },
+            "padded-archer-armor": {
+                "leather-archer-armor": {
+                    "ring-archer-armor": null
+                }
+            },
+            "scale-barding-armor": {
+                "chain-barding-armor": {
+                    "plate-barding-armor": null
+                }
+            },
+            "scale-mail-armor": {
+                "chain-mail-armor": {
+                    "plate-mail-armor": null
+                }
+            },
+            "siege-workshop": {
+                "battering-ram": {
+                    "capped-ram": {
+                        "siege-ram": null
+                    }
+                },
+                "bombard-cannon": null,
+                "mangonel": {
+                    "onager": {
+                        "siege-onager": null
+                    }
+                },
+                "scorpion": {
+                    "heavy-scorpion": null
+                },
+                "siege-tower": null
+            }
+        },
+        "bombard-tower": null,
+        "castle": {
+            "conscription": null,
+            "hoardings": null,
+            "petard": null,
+            "sappers": null,
+            "spies-treason": null,
+            "trebuchet": null
+        },
+        "dock": {
+            "cannon-galleon": {
+                "elite-cannon-galleon": null
+            },
+            "careening": {
+                "dry-dock": null
+            },
+            "demolition-raft": {
+                "demolition-ship": {
+                    "heavy-demolition-ship": null
+                }
+            },
+            "fire-galley": {
+                "fire-ship": {
+                    "fast-fire-ship": null
+                }
+            },
+            "fish-trap": null,
+            "fishing-ship": null,
+            "galley": {
+                "war-galley": {
+                    "galleon": null
+                }
+            },
+            "gillnets": null,
+            "shipwright": null,
+            "trade-cog": null,
+            "transport-ship": null
+        },
+        "gate": null,
+        "house": null,
+        "lumber-camp": {
+            "double-bit-axe": {
+                "bow-saw": {
+                    "two-man-saw": null
+                }
+            }
+        },
+        "mill": {
+            "farm": null,
+            "horse-collar": {
+                "heavy-plow": {
+                    "crop-rotation": null
+                }
+            },
+            "market": {
+                "cartography": {
+                    "caravan": null
+                },
+                "coinage": {
+                    "banking": null
+                },
+                "guilds": null,
+                "trade-cart": null
+            }
+        },
+        "mining-camp": {
+            "gold-mining": {
+                "gold-shaft-mining": null
+            },
+            "stone-mining": {
+                "stone-shaft-mining": null
+            }
+        },
+        "monastery": {
+            "atonement": null,
+            "block-printing": null,
+            "faith": null,
+            "fervor": null,
+            "herbal-medicine": null,
+            "heresy": null,
+            "illumination": null,
+            "monk": null,
+            "redemption": null,
+            "sanctity": null,
+            "theocracy": null
+        },
+        "outpost": null,
+        "palisade-gate": null,
+        "palisade-wall": null,
+        "stone-wall": {
+            "fortified-wall": null
+        },
+        "town-center": {
+            "feudal-age": {
+                "castle-age": {
+                    "imperial-age": null
+                }
+            },
+            "loom": null,
+            "town-watch": {
+                "town-patrol": null
+            },
+            "villager": null,
+            "wheelbarrow": {
+                "hand-cart": null
+            }
+        },
+        "university": {
+            "arrowslits": null,
+            "ballistics": null,
+            "chemistry": {
+                "bombard-tower-tech": null
+            },
+            "fortified-wall-tech": null,
+            "guard-tower-tech": {
+                "keep-tech": null
+            },
+            "heated-shot": null,
+            "masonry": {
+                "architecture": null
+            },
+            "murder-holes": null,
+            "siege-engineers": null,
+            "treadmill-crane": null
+        },
+        "watch-tower": {
+            "guard-tower": {
+                "keep": null
+            }
+        },
+        "wonder": null
     }
 }

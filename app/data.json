@@ -3765,7 +3765,7 @@
                 "civilizations": [
                     "indians"
                 ],
-                "structure": "castle"
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -6931,12 +6931,145 @@
         },
         "bombard-tower": null,
         "castle": {
+            "anarchy": null,
+            "andean-sling": null,
+            "arquebus": null,
+            "artillary": null,
+            "atheism": null,
+            "atlatl": null,
+            "bearded-axe": null,
+            "berserk": {
+                "elite-berserk": null
+            },
+            "berserkergang": null,
+            "boiling-oil": null,
+            "boyar": {
+                "elite-boyar": null
+            },
+            "camel-archer": {
+                "elite-camel-archer": null
+            },
+            "carrack": null,
+            "chieftains": null,
+            "chivalry": null,
+            "chu-ko-nu": {
+                "elite-chu-ko-nu": null
+            },
+            "condottiero": null,
+            "conquistador": {
+                "elite-conquistador": null
+            },
             "conscription": null,
+            "couriers": null,
+            "crenellations": null,
+            "drill": null,
+            "druzhina": null,
+            "el-dorado": null,
+            "elephant-archer": {
+                "elite-elephant-archer": null
+            },
+            "farimba": null,
+            "furor-celtica": null,
+            "garland-wars": null,
+            "gbeto": {
+                "elite-gbeto": null
+            },
+            "genoese-crossbowman": {
+                "elite-genoese-crossbowman": null
+            },
+            "great-wall": null,
+            "greek-fire": null,
             "hoardings": null,
+            "huskarl": {
+                "elite-huskarl": null
+            },
+            "inquisition": null,
+            "ironclad": null,
+            "jaguar-warrior": {
+                "elite-jaguar-warrior": null
+            },
+            "janissary": {
+                "elite-janissary": null
+            },
+            "kamayuk": {
+                "elite-kamayuk": null
+            },
+            "kasbah": null,
+            "kataparuto": null,
+            "logistica": null,
+            "longbowman": {
+                "elite-longbowman": null
+            },
+            "madrasah": null,
+            "maghrabi-camels": null,
+            "magyar-huszar": {
+                "elite-magyar-huszar": null
+            },
+            "mahouts": null,
+            "mameluke": {
+                "elite-mameluke": null
+            },
+            "mangudai": {
+                "elite-mangudai": null
+            },
+            "marauders": null,
+            "mercenaries": null,
+            "nomads": null,
+            "obsidian-arrows": null,
+            "organ-gun": {
+                "elite-organ-gun": null
+            },
+            "orthodoxy": null,
+            "panokseon": null,
+            "pavise": null,
+            "perfusion": null,
             "petard": null,
+            "plumed-archer": {
+                "elite-plumed-archer": null
+            },
+            "recurve-bow": null,
+            "rocketry": null,
+            "royal-heirs": null,
+            "samurai": {
+                "elite-samurai": null
+            },
             "sappers": null,
+            "shatagni": null,
+            "shinkichon": null,
+            "shotel-warrior": {
+                "elite-shotel-warrior": null
+            },
+            "silk-road": null,
+            "sipahi": null,
             "spies-treason": null,
-            "trebuchet": null
+            "stronghold": null,
+            "sultans": null,
+            "supremacy": null,
+            "tarkan": {
+                "elite-tarkan": null
+            },
+            "teutonic-knight": {
+                "elite-teutonic-knight": null
+            },
+            "throwing-axeman": {
+                "elite-throwing-axeman": null
+            },
+            "tigui": null,
+            "torsion-engines": null,
+            "trebuchet": null,
+            "war-elephant": {
+                "elite-war-elephant": null
+            },
+            "war-wagon": {
+                "elite-war-wagon": null
+            },
+            "warwolf": null,
+            "woad-raider": {
+                "elite-woad-raider": null
+            },
+            "yasama": null,
+            "yeomen": null,
+            "zealotry": null
         },
         "dock": {
             "cannon-galleon": {

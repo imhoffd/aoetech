@@ -1109,6 +1109,42 @@
             },
             "type": "technology"
         },
+        "castle": {
+            "name": "Castle",
+            "prerequisites": {
+                "age": 3,
+                "civilizations": [
+                    "aztecs",
+                    "berbers",
+                    "britons",
+                    "byzantines",
+                    "celts",
+                    "chinese",
+                    "ethiopians",
+                    "franks",
+                    "goths",
+                    "huns",
+                    "incas",
+                    "indians",
+                    "italians",
+                    "japanese",
+                    "koreans",
+                    "magyars",
+                    "malians",
+                    "mayans",
+                    "mongols",
+                    "persians",
+                    "portuguese",
+                    "saracens",
+                    "slavs",
+                    "spanish",
+                    "teutons",
+                    "turks",
+                    "vikings"
+                ]
+            },
+            "type": "structure"
+        },
         "castle-age": {
             "name": "Castle Age",
             "prerequisites": {

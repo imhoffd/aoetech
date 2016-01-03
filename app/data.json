@@ -127,7 +127,8 @@
                     "portuguese",
                     "saracens",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -163,7 +164,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -231,7 +233,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -278,7 +281,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -314,7 +318,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "technology"
         },
@@ -374,7 +379,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -410,7 +416,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -446,7 +453,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -518,7 +526,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -622,7 +631,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -655,7 +665,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -681,7 +692,8 @@
                     "spanish",
                     "teutons",
                     "turks"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "technology"
         },
@@ -717,7 +729,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -760,7 +773,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -809,7 +823,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -845,7 +860,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "lumber-camp"
             },
             "type": "technology"
         },
@@ -891,7 +907,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -910,7 +927,8 @@
                     "persians",
                     "saracens",
                     "turks"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -953,7 +971,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -989,7 +1008,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -1025,7 +1045,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -1072,7 +1093,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "technology"
         },
@@ -1119,7 +1141,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -1191,7 +1214,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -1222,7 +1246,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -1255,7 +1280,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -1290,7 +1316,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -1326,7 +1353,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -1358,7 +1386,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -1394,7 +1423,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -1463,7 +1493,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -1521,7 +1552,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1576,7 +1608,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mill"
             },
             "type": "technology"
         },
@@ -1611,7 +1644,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -1645,7 +1679,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -1679,7 +1714,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -1751,7 +1787,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "lumber-camp"
             },
             "type": "technology"
         },
@@ -1806,7 +1843,8 @@
                     "spanish",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "technology"
         },
@@ -1818,7 +1856,8 @@
                     "aztecs",
                     "incas",
                     "mayans"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -1830,7 +1869,8 @@
                     "aztecs",
                     "incas",
                     "mayans"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -1905,7 +1945,8 @@
                     "spanish",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -1950,7 +1991,8 @@
                     "aztecs",
                     "incas",
                     "mayans"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -2172,7 +2214,8 @@
                     "spanish",
                     "teutons",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -2285,7 +2328,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -2358,7 +2402,8 @@
                     "slavs",
                     "spanish",
                     "teutons"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2394,7 +2439,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -2430,7 +2476,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -2465,7 +2512,8 @@
                     "spanish",
                     "teutons",
                     "turks"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2501,7 +2549,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2573,7 +2622,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2609,7 +2659,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -2645,7 +2696,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -2713,7 +2765,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -2759,7 +2812,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2795,7 +2849,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2910,7 +2965,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "technology"
         },
@@ -2946,7 +3002,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mining-camp"
             },
             "type": "technology"
         },
@@ -2982,7 +3039,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mining-camp"
             },
             "type": "technology"
         },
@@ -3076,7 +3134,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "structure"
         },
@@ -3111,7 +3170,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -3140,7 +3200,8 @@
                     "slavs",
                     "spanish",
                     "teutons"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -3164,7 +3225,8 @@
                     "spanish",
                     "teutons",
                     "turks"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -3200,7 +3262,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "technology"
         },
@@ -3235,7 +3298,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -3254,7 +3318,8 @@
                     "persians",
                     "saracens",
                     "turks"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -3283,7 +3348,8 @@
                     "slavs",
                     "spanish",
                     "turks"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -3311,7 +3377,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -3347,7 +3414,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mill"
             },
             "type": "technology"
         },
@@ -3381,7 +3449,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -3412,7 +3481,8 @@
                     "saracens",
                     "slavs",
                     "spanish"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -3439,7 +3509,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -3467,7 +3538,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3503,7 +3575,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "technology"
         },
@@ -3570,7 +3643,8 @@
                     "slavs",
                     "spanish",
                     "turks"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "technology"
         },
@@ -3606,7 +3680,8 @@
                     "slavs",
                     "spanish",
                     "turks"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -3641,7 +3716,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -3677,7 +3753,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -3735,7 +3812,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -3860,7 +3938,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -3894,7 +3973,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -3930,7 +4010,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -3962,7 +4043,8 @@
                     "spanish",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -4009,7 +4091,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -4067,7 +4150,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -4194,7 +4278,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -4230,7 +4315,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -4322,7 +4408,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -4369,7 +4456,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -4524,7 +4612,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "unit"
         },
@@ -4560,7 +4649,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -4618,7 +4708,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -4712,7 +4803,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -4729,7 +4821,8 @@
                     "persians",
                     "spanish",
                     "teutons"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -4829,7 +4922,8 @@
                     "persians",
                     "saracens",
                     "turks"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "technology"
         },
@@ -4887,7 +4981,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4922,7 +5017,8 @@
                     "spanish",
                     "teutons",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -4956,7 +5052,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -4992,7 +5089,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -5038,7 +5136,8 @@
                     "spanish",
                     "teutons",
                     "turks"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -5071,7 +5170,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -5136,7 +5236,8 @@
                     "spanish",
                     "teutons",
                     "turks"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -5164,7 +5265,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5199,7 +5301,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -5235,7 +5338,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "blacksmith"
             },
             "type": "technology"
         },
@@ -5271,7 +5375,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -5304,7 +5409,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "stable"
             },
             "type": "unit"
         },
@@ -5351,7 +5457,8 @@
                     "mongols",
                     "spanish",
                     "turks"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "technology"
         },
@@ -5396,7 +5503,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -5428,7 +5536,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -5462,7 +5571,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -5498,7 +5608,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "siege-workshop"
             },
             "type": "unit"
         },
@@ -5592,7 +5703,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -5639,7 +5751,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -5675,7 +5788,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5708,7 +5822,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "technology"
         },
@@ -5777,7 +5892,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mining-camp"
             },
             "type": "technology"
         },
@@ -5812,7 +5928,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "mining-camp"
             },
             "type": "technology"
         },
@@ -5937,7 +6054,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "technology"
         },
@@ -5977,7 +6095,8 @@
                     "spanish",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "technology"
         },
@@ -6071,7 +6190,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -6107,7 +6227,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },
@@ -6143,7 +6264,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "technology"
         },
@@ -6179,7 +6301,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "market"
             },
             "type": "unit"
         },
@@ -6215,7 +6338,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -6251,7 +6375,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -6284,7 +6409,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "university"
             },
             "type": "technology"
         },
@@ -6320,7 +6446,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -6366,7 +6493,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "barracks"
             },
             "type": "unit"
         },
@@ -6399,7 +6527,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "lumber-camp"
             },
             "type": "technology"
         },
@@ -6471,7 +6600,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "unit"
         },
@@ -6518,7 +6648,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -6610,7 +6741,8 @@
                     "teutons",
                     "turks",
                     "vikings"
-                ]
+                ],
+                "structure": "town-center"
             },
             "type": "technology"
         },

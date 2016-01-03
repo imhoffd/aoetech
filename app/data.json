@@ -89,7 +89,8 @@
                 "age": 3,
                 "civilizations": [
                     "goths"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -99,7 +100,8 @@
                 "age": 3,
                 "civilizations": [
                     "incas"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -239,7 +241,8 @@
                 "age": 4,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -321,7 +324,8 @@
                 "age": 4,
                 "civilizations": [
                     "turks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -331,7 +335,8 @@
                 "age": 4,
                 "civilizations": [
                     "huns"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -341,7 +346,8 @@
                 "age": 3,
                 "civilizations": [
                     "aztecs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -522,7 +528,8 @@
                 "age": 4,
                 "civilizations": [
                     "franks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -532,7 +539,8 @@
                 "age": 3,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -542,7 +550,8 @@
                 "age": 4,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -718,7 +727,8 @@
                 "age": 3,
                 "civilizations": [
                     "persians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -845,7 +855,8 @@
                 "age": 3,
                 "civilizations": [
                     "slavs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -909,7 +920,8 @@
                 "age": 3,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1023,7 +1035,8 @@
                 "age": 3,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -1069,7 +1082,8 @@
                 "age": 3,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1390,7 +1404,8 @@
                 "age": 3,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1400,7 +1415,8 @@
                 "age": 3,
                 "civilizations": [
                     "franks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1410,7 +1426,8 @@
                 "age": 3,
                 "civilizations": [
                     "chinese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1456,7 +1473,8 @@
                 "age": 4,
                 "civilizations": [
                     "italians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1466,7 +1484,8 @@
                 "age": 3,
                 "civilizations": [
                     "spanish"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1512,7 +1531,8 @@
                 "age": 4,
                 "civilizations": [
                     "incas"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1522,7 +1542,8 @@
                 "age": 4,
                 "civilizations": [
                     "teutons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1740,7 +1761,8 @@
                 "age": 4,
                 "civilizations": [
                     "mongols"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1750,7 +1772,8 @@
                 "age": 4,
                 "civilizations": [
                     "slavs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1817,7 +1840,8 @@
                 "age": 4,
                 "civilizations": [
                     "mayans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -1827,7 +1851,8 @@
                 "age": 3,
                 "civilizations": [
                     "indians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1837,7 +1862,8 @@
                 "age": 4,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1847,7 +1873,8 @@
                 "age": 4,
                 "civilizations": [
                     "slavs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1857,7 +1884,8 @@
                 "age": 4,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1887,7 +1915,8 @@
                 "age": 4,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -1897,7 +1926,8 @@
                 "age": 4,
                 "civilizations": [
                     "chinese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1907,7 +1937,8 @@
                 "age": 4,
                 "civilizations": [
                     "spanish"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1929,7 +1960,8 @@
                 "age": 4,
                 "civilizations": [
                     "indians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1939,7 +1971,8 @@
                 "age": 4,
                 "civilizations": [
                     "malians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1949,7 +1982,8 @@
                 "age": 4,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -1959,7 +1993,8 @@
                 "age": 4,
                 "civilizations": [
                     "italians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1969,7 +2004,8 @@
                 "age": 4,
                 "civilizations": [
                     "goths"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1979,7 +2015,8 @@
                 "age": 4,
                 "civilizations": [
                     "aztecs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1989,7 +2026,8 @@
                 "age": 4,
                 "civilizations": [
                     "turks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -1999,7 +2037,8 @@
                 "age": 4,
                 "civilizations": [
                     "incas"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2009,7 +2048,8 @@
                 "age": 4,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2019,7 +2059,8 @@
                 "age": 4,
                 "civilizations": [
                     "britons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2029,7 +2070,8 @@
                 "age": 4,
                 "civilizations": [
                     "magyars"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2039,7 +2081,8 @@
                 "age": 4,
                 "civilizations": [
                     "saracens"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2049,7 +2092,8 @@
                 "age": 4,
                 "civilizations": [
                     "mongols"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2059,7 +2103,8 @@
                 "age": 4,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2069,7 +2114,8 @@
                 "age": 4,
                 "civilizations": [
                     "mayans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2079,7 +2125,8 @@
                 "age": 4,
                 "civilizations": [
                     "japanese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2089,7 +2136,8 @@
                 "age": 4,
                 "civilizations": [
                     "ethiopians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2134,7 +2182,8 @@
                 "age": 4,
                 "civilizations": [
                     "huns"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2144,7 +2193,8 @@
                 "age": 4,
                 "civilizations": [
                     "teutons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2154,7 +2204,8 @@
                 "age": 4,
                 "civilizations": [
                     "franks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2164,7 +2215,8 @@
                 "age": 4,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -2174,7 +2226,8 @@
                 "age": 4,
                 "civilizations": [
                     "persians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2184,7 +2237,8 @@
                 "age": 4,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2194,7 +2248,8 @@
                 "age": 4,
                 "civilizations": [
                     "celts"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2240,7 +2295,8 @@
                 "age": 4,
                 "civilizations": [
                     "malians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -2667,7 +2723,8 @@
                 "age": 4,
                 "civilizations": [
                     "celts"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -2748,7 +2805,8 @@
                 "age": 4,
                 "civilizations": [
                     "aztecs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -2793,7 +2851,8 @@
                 "age": 3,
                 "civilizations": [
                     "malians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2803,7 +2862,8 @@
                 "age": 3,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -2813,7 +2873,8 @@
                 "age": 3,
                 "civilizations": [
                     "italians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -2931,7 +2992,8 @@
                 "age": 3,
                 "civilizations": [
                     "chinese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -2941,7 +3003,8 @@
                 "age": 3,
                 "civilizations": [
                     "byzantines"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3517,7 +3580,8 @@
                 "age": 3,
                 "civilizations": [
                     "goths"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -3623,7 +3687,8 @@
                 "age": 4,
                 "civilizations": [
                     "indians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -3633,7 +3698,8 @@
                 "age": 3,
                 "civilizations": [
                     "spanish"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3679,7 +3745,8 @@
                 "age": 3,
                 "civilizations": [
                     "teutons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3689,7 +3756,8 @@
                 "age": 3,
                 "civilizations": [
                     "aztecs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -3699,7 +3767,8 @@
                 "age": 3,
                 "civilizations": [
                     "turks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -3709,7 +3778,8 @@
                 "age": 3,
                 "civilizations": [
                     "incas"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -3719,7 +3789,8 @@
                 "age": 3,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3729,7 +3800,8 @@
                 "age": 4,
                 "civilizations": [
                     "japanese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3900,7 +3972,8 @@
                 "age": 4,
                 "civilizations": [
                     "byzantines"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -3946,7 +4019,8 @@
                 "age": 3,
                 "civilizations": [
                     "vikings"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -3956,7 +4030,8 @@
                 "age": 3,
                 "civilizations": [
                     "britons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4038,7 +4113,8 @@
                 "age": 3,
                 "civilizations": [
                     "saracens"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4048,7 +4124,8 @@
                 "age": 4,
                 "civilizations": [
                     "berbers"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4058,7 +4135,8 @@
                 "age": 3,
                 "civilizations": [
                     "magyars"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4068,7 +4146,8 @@
                 "age": 4,
                 "civilizations": [
                     "persians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4078,7 +4157,8 @@
                 "age": 3,
                 "civilizations": [
                     "saracens"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4160,7 +4240,8 @@
                 "age": 3,
                 "civilizations": [
                     "mongols"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4170,7 +4251,8 @@
                 "age": 3,
                 "civilizations": [
                     "huns"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4250,7 +4332,8 @@
                 "age": 3,
                 "civilizations": [
                     "magyars"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4368,7 +4451,8 @@
                 "age": 3,
                 "civilizations": [
                     "spanish"
-                ]
+                ],
+                "structure": "monastery"
             },
             "type": "unit"
         },
@@ -4486,7 +4570,8 @@
                 "age": 3,
                 "civilizations": [
                     "mongols"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4496,7 +4581,8 @@
                 "age": 3,
                 "civilizations": [
                     "mayans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4542,7 +4628,8 @@
                 "age": 3,
                 "civilizations": [
                     "portuguese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4552,7 +4639,8 @@
                 "age": 3,
                 "civilizations": [
                     "slavs"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4723,7 +4811,8 @@
                 "age": 3,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4750,7 +4839,8 @@
                 "age": 3,
                 "civilizations": [
                     "italians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4760,7 +4850,8 @@
                 "age": 4,
                 "civilizations": [
                     "goths"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4911,7 +5002,8 @@
                 "age": 3,
                 "civilizations": [
                     "mayans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -4921,7 +5013,8 @@
                 "age": 4,
                 "civilizations": [
                     "magyars"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4988,7 +5081,8 @@
                 "age": 4,
                 "civilizations": [
                     "chinese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -4998,7 +5092,8 @@
                 "age": 3,
                 "civilizations": [
                     "ethiopians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5008,7 +5103,8 @@
                 "age": 3,
                 "civilizations": [
                     "japanese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -5218,7 +5314,8 @@
                 "age": 4,
                 "civilizations": [
                     "indians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5228,7 +5325,8 @@
                 "age": 4,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5263,7 +5361,8 @@
                 "age": 3,
                 "civilizations": [
                     "ethiopians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -5445,7 +5544,8 @@
                 "age": 4,
                 "civilizations": [
                     "italians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5455,7 +5555,8 @@
                 "age": 3,
                 "civilizations": [
                     "turks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5501,7 +5602,8 @@
                 "age": 3,
                 "civilizations": [
                     "incas"
-                ]
+                ],
+                "structure": "archery-range"
             },
             "type": "unit"
         },
@@ -5755,7 +5857,8 @@
                 "age": 3,
                 "civilizations": [
                     "celts"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5765,7 +5868,8 @@
                 "age": 3,
                 "civilizations": [
                     "indians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5775,7 +5879,8 @@
                 "age": 4,
                 "civilizations": [
                     "spanish"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5785,7 +5890,8 @@
                 "age": 3,
                 "civilizations": [
                     "huns"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -5795,7 +5901,8 @@
                 "age": 3,
                 "civilizations": [
                     "teutons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -5840,7 +5947,8 @@
                 "age": 3,
                 "civilizations": [
                     "franks"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -5879,7 +5987,8 @@
                 "age": 3,
                 "civilizations": [
                     "malians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -5889,7 +5998,8 @@
                 "age": 4,
                 "civilizations": [
                     "ethiopians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -6220,7 +6330,8 @@
                 "age": 3,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "dock"
             },
             "type": "unit"
         },
@@ -6370,7 +6481,8 @@
                 "age": 3,
                 "civilizations": [
                     "persians"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -6416,7 +6528,8 @@
                 "age": 3,
                 "civilizations": [
                     "koreans"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -6426,7 +6539,8 @@
                 "age": 4,
                 "civilizations": [
                     "britons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -6506,7 +6620,8 @@
                 "age": 3,
                 "civilizations": [
                     "celts"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "unit"
         },
@@ -6552,7 +6667,8 @@
                 "age": 3,
                 "civilizations": [
                     "japanese"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -6562,7 +6678,8 @@
                 "age": 3,
                 "civilizations": [
                     "britons"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         },
@@ -6572,7 +6689,8 @@
                 "age": 4,
                 "civilizations": [
                     "saracens"
-                ]
+                ],
+                "structure": "castle"
             },
             "type": "technology"
         }

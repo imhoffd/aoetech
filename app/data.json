@@ -6838,14 +6838,19 @@
                 "cavalry-archer": {
                     "heavy-cavalry-archer": null
                 },
+                "genitour": {
+                    "elite-genitour": null
+                },
                 "hand-cannoneer": null,
                 "parthian-tactics": null,
                 "skirmisher": {
                     "elite-skirmisher": null
                 },
+                "slinger": null,
                 "thumb-ring": null
             },
             "arson": null,
+            "condottiero": null,
             "eagle-scout": {
                 "eagle-warrior": {
                     "elite-eagle-warrior": null
@@ -6869,7 +6874,9 @@
             "stable": {
                 "bloodlines": null,
                 "camel": {
-                    "heavy-camel": null
+                    "heavy-camel": {
+                        "imperial-camel": null
+                    }
                 },
                 "husbandry": null,
                 "knight": {
@@ -7075,6 +7082,9 @@
             "cannon-galleon": {
                 "elite-cannon-galleon": null
             },
+            "caravel": {
+                "elite-caravel": null
+            },
             "careening": {
                 "dry-dock": null
             },
@@ -7096,9 +7106,15 @@
                 }
             },
             "gillnets": null,
+            "longboat": {
+                "elite-longboat": null
+            },
             "shipwright": null,
             "trade-cog": null,
-            "transport-ship": null
+            "transport-ship": null,
+            "turtle-ship": {
+                "elite-turtle-ship": null
+            }
         },
         "gate": null,
         "house": null,
@@ -7143,6 +7159,7 @@
             "herbal-medicine": null,
             "heresy": null,
             "illumination": null,
+            "missionary": null,
             "monk": null,
             "redemption": null,
             "sanctity": null,

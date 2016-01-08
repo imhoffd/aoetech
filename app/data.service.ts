@@ -1,6 +1,5 @@
 import {Http, Response} from 'angular2/http';
 import {Injectable} from 'angular2/core';
-import {Observable} from 'rxjs/Observable';
 
 export type CivilizationId = string;
 export type TechnologyId = string;

@@ -29,9 +29,9 @@ export interface Data {
 
 @Injectable()
 export class DataService {
-    private _dataPromise: Promise<Object>;
+    protected _dataPromise: Promise<Object>;
 
-    constructor(private _http: Http) { }
+    constructor(protected _http: Http) { }
 
     public getData() : Promise<Data> {
         if (this._dataPromise === undefined) {

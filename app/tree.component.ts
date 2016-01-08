@@ -7,9 +7,14 @@ import {DataService, Technology} from './data.service';
     providers: [DataService]
 })
 export class TreeComponent implements OnInit {
-    private _technologies: Technology[];
+    protected _windowSize: {
+        width: number;
+        height: number;
+    };
 
-    constructor(private _dataService: DataService) {}
+    protected _technologies: Technology[];
+
+    constructor(protected _dataService: DataService) {}
 
     ngOnInit() {
         this._dataService.getData().then(data => {

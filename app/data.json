@@ -1,89 +1,117 @@
 {
-    "civilizations": {
-        "aztecs": {
+    "civilizations": [
+        {
+            "id": "aztecs",
             "name": "Aztecs"
         },
-        "berbers": {
+        {
+            "id": "berbers",
             "name": "Berbers"
         },
-        "britons": {
+        {
+            "id": "britons",
             "name": "Britons"
         },
-        "byzantines": {
+        {
+            "id": "byzantines",
             "name": "Byzantines"
         },
-        "celts": {
+        {
+            "id": "celts",
             "name": "Celts"
         },
-        "chinese": {
+        {
+            "id": "chinese",
             "name": "Chinese"
         },
-        "ethiopians": {
+        {
+            "id": "ethiopians",
             "name": "Ethiopians"
         },
-        "franks": {
+        {
+            "id": "franks",
             "name": "Franks"
         },
-        "goths": {
+        {
+            "id": "goths",
             "name": "Goths"
         },
-        "huns": {
+        {
+            "id": "huns",
             "name": "Huns"
         },
-        "incas": {
+        {
+            "id": "incas",
             "name": "Incas"
         },
-        "indians": {
+        {
+            "id": "indians",
             "name": "Indians"
         },
-        "italians": {
+        {
+            "id": "italians",
             "name": "Italians"
         },
-        "japanese": {
+        {
+            "id": "japanese",
             "name": "Japanese"
         },
-        "koreans": {
+        {
+            "id": "koreans",
             "name": "Koreans"
         },
-        "magyars": {
+        {
+            "id": "magyars",
             "name": "Magyars"
         },
-        "malians": {
+        {
+            "id": "malians",
             "name": "Malians"
         },
-        "mayans": {
+        {
+            "id": "mayans",
             "name": "Mayans"
         },
-        "mongols": {
+        {
+            "id": "mongols",
             "name": "Mongols"
         },
-        "persians": {
+        {
+            "id": "persians",
             "name": "Persians"
         },
-        "portuguese": {
+        {
+            "id": "portuguese",
             "name": "Portuguese"
         },
-        "saracens": {
+        {
+            "id": "saracens",
             "name": "Saracens"
         },
-        "slavs": {
+        {
+            "id": "slavs",
             "name": "Slavs"
         },
-        "spanish": {
+        {
+            "id": "spanish",
             "name": "Spanish"
         },
-        "teutons": {
+        {
+            "id": "teutons",
             "name": "Teutons"
         },
-        "turks": {
+        {
+            "id": "turks",
             "name": "Turks"
         },
-        "vikings": {
+        {
+            "id": "vikings",
             "name": "Vikings"
         }
-    },
-    "technologies": {
-        "anarchy": {
+    ],
+    "technologies": [
+        {
+            "id": "anarchy",
             "name": "Anarchy",
             "prerequisites": {
                 "age": 3,
@@ -94,7 +122,8 @@
             },
             "type": "technology"
         },
-        "andean-sling": {
+        {
+            "id": "andean_sling",
             "name": "Andean Sling",
             "prerequisites": {
                 "age": 3,
@@ -105,7 +134,8 @@
             },
             "type": "technology"
         },
-        "arbalest": {
+        {
+            "id": "arbalest",
             "name": "Arbalest",
             "prerequisites": {
                 "age": 4,
@@ -128,11 +158,12 @@
                     "saracens",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "archer": {
+        {
+            "id": "archer",
             "name": "Archer",
             "prerequisites": {
                 "age": 2,
@@ -165,11 +196,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "archery-range": {
+        {
+            "id": "archery_range",
             "name": "Archery Range",
             "prerequisites": {
                 "age": 2,
@@ -205,7 +237,8 @@
             },
             "type": "structure"
         },
-        "architecture": {
+        {
+            "id": "architecture",
             "name": "Architecture",
             "prerequisites": {
                 "age": 4,
@@ -238,7 +271,8 @@
             },
             "type": "technology"
         },
-        "arquebus": {
+        {
+            "id": "arquebus",
             "name": "Arquebus",
             "prerequisites": {
                 "age": 4,
@@ -249,7 +283,8 @@
             },
             "type": "technology"
         },
-        "arrowslits": {
+        {
+            "id": "arrowslits",
             "name": "Arrowslits",
             "prerequisites": {
                 "age": 3,
@@ -286,7 +321,8 @@
             },
             "type": "technology"
         },
-        "arson": {
+        {
+            "id": "arson",
             "name": "Arson",
             "prerequisites": {
                 "age": 3,
@@ -323,7 +359,8 @@
             },
             "type": "technology"
         },
-        "artillary": {
+        {
+            "id": "artillary",
             "name": "Artillary",
             "prerequisites": {
                 "age": 4,
@@ -334,7 +371,8 @@
             },
             "type": "technology"
         },
-        "atheism": {
+        {
+            "id": "atheism",
             "name": "Atheism",
             "prerequisites": {
                 "age": 4,
@@ -345,7 +383,8 @@
             },
             "type": "technology"
         },
-        "atlatl": {
+        {
+            "id": "atlatl",
             "name": "Atlatl",
             "prerequisites": {
                 "age": 3,
@@ -356,7 +395,8 @@
             },
             "type": "technology"
         },
-        "atonement": {
+        {
+            "id": "atonement",
             "name": "Atonement",
             "prerequisites": {
                 "age": 3,
@@ -384,7 +424,8 @@
             },
             "type": "technology"
         },
-        "ballistics": {
+        {
+            "id": "ballistics",
             "name": "Ballistics",
             "prerequisites": {
                 "age": 3,
@@ -421,7 +462,8 @@
             },
             "type": "technology"
         },
-        "banking": {
+        {
+            "id": "banking",
             "name": "Banking",
             "prerequisites": {
                 "age": 3,
@@ -458,7 +500,8 @@
             },
             "type": "technology"
         },
-        "barracks": {
+        {
+            "id": "barracks",
             "name": "Barracks",
             "prerequisites": {
                 "age": 1,
@@ -494,7 +537,8 @@
             },
             "type": "structure"
         },
-        "battering-ram": {
+        {
+            "id": "battering_ram",
             "name": "Battering Ram",
             "prerequisites": {
                 "age": 3,
@@ -527,11 +571,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "bearded-axe": {
+        {
+            "id": "bearded_axe",
             "name": "Bearded Axe",
             "prerequisites": {
                 "age": 4,
@@ -542,7 +587,8 @@
             },
             "type": "technology"
         },
-        "berserk": {
+        {
+            "id": "berserk",
             "name": "Berserk",
             "prerequisites": {
                 "age": 3,
@@ -553,7 +599,8 @@
             },
             "type": "unit"
         },
-        "berserkergang": {
+        {
+            "id": "berserkergang",
             "name": "Berserkergang",
             "prerequisites": {
                 "age": 4,
@@ -564,7 +611,8 @@
             },
             "type": "technology"
         },
-        "blacksmith": {
+        {
+            "id": "blacksmith",
             "name": "Blacksmith",
             "prerequisites": {
                 "age": 2,
@@ -600,7 +648,8 @@
             },
             "type": "structure"
         },
-        "blast-furnace": {
+        {
+            "id": "blast_furnace",
             "name": "Blast Furnace",
             "prerequisites": {
                 "age": 4,
@@ -636,7 +685,8 @@
             },
             "type": "technology"
         },
-        "block-printing": {
+        {
+            "id": "block_printing",
             "name": "Block Printing",
             "prerequisites": {
                 "age": 4,
@@ -670,7 +720,8 @@
             },
             "type": "technology"
         },
-        "bloodlines": {
+        {
+            "id": "bloodlines",
             "name": "Bloodlines",
             "prerequisites": {
                 "age": 2,
@@ -697,7 +748,8 @@
             },
             "type": "technology"
         },
-        "bodkin-arrow": {
+        {
+            "id": "bodkin_arrow",
             "name": "Bodkin Arrow",
             "prerequisites": {
                 "age": 3,
@@ -734,7 +786,8 @@
             },
             "type": "technology"
         },
-        "boiling-oil": {
+        {
+            "id": "boiling_oil",
             "name": "Boiling Oil",
             "prerequisites": {
                 "age": 3,
@@ -745,7 +798,8 @@
             },
             "type": "technology"
         },
-        "bombard-cannon": {
+        {
+            "id": "bombard_cannon",
             "name": "Bombard Cannon",
             "prerequisites": {
                 "age": 4,
@@ -774,11 +828,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "bombard-tower": {
+        {
+            "id": "bombard_tower",
             "name": "Bombard Tower",
             "prerequisites": {
                 "age": 4,
@@ -795,7 +850,8 @@
             },
             "type": "structure"
         },
-        "bombard-tower-tech": {
+        {
+            "id": "bombard_tower_tech",
             "name": "Bombard Tower",
             "prerequisites": {
                 "age": 4,
@@ -828,7 +884,8 @@
             },
             "type": "technology"
         },
-        "bow-saw": {
+        {
+            "id": "bow_saw",
             "name": "Bow Saw",
             "prerequisites": {
                 "age": 3,
@@ -861,11 +918,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "lumber-camp"
+                "structure": "lumber_camp"
             },
             "type": "technology"
         },
-        "boyar": {
+        {
+            "id": "boyar",
             "name": "Boyar",
             "prerequisites": {
                 "age": 3,
@@ -876,7 +934,8 @@
             },
             "type": "unit"
         },
-        "bracer": {
+        {
+            "id": "bracer",
             "name": "Bracer",
             "prerequisites": {
                 "age": 4,
@@ -912,7 +971,8 @@
             },
             "type": "technology"
         },
-        "camel": {
+        {
+            "id": "camel",
             "name": "Camel",
             "prerequisites": {
                 "age": 3,
@@ -932,7 +992,8 @@
             },
             "type": "unit"
         },
-        "camel-archer": {
+        {
+            "id": "camel_archer",
             "name": "Camel Archer",
             "prerequisites": {
                 "age": 3,
@@ -943,7 +1004,8 @@
             },
             "type": "unit"
         },
-        "cannon-galleon": {
+        {
+            "id": "cannon_galleon",
             "name": "Cannon Galleon",
             "prerequisites": {
                 "age": 4,
@@ -976,7 +1038,8 @@
             },
             "type": "unit"
         },
-        "capped-ram": {
+        {
+            "id": "capped_ram",
             "name": "Capped Ram",
             "prerequisites": {
                 "age": 4,
@@ -1009,11 +1072,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "caravan": {
+        {
+            "id": "caravan",
             "name": "Caravan",
             "prerequisites": {
                 "age": 3,
@@ -1050,7 +1114,8 @@
             },
             "type": "technology"
         },
-        "caravel": {
+        {
+            "id": "caravel",
             "name": "Caravel",
             "prerequisites": {
                 "age": 3,
@@ -1061,7 +1126,8 @@
             },
             "type": "unit"
         },
-        "careening": {
+        {
+            "id": "careening",
             "name": "Careening",
             "prerequisites": {
                 "age": 3,
@@ -1098,7 +1164,8 @@
             },
             "type": "technology"
         },
-        "carrack": {
+        {
+            "id": "carrack",
             "name": "Carrack",
             "prerequisites": {
                 "age": 3,
@@ -1109,7 +1176,8 @@
             },
             "type": "technology"
         },
-        "cartography": {
+        {
+            "id": "cartography",
             "name": "Cartography",
             "prerequisites": {
                 "age": 2,
@@ -1146,7 +1214,8 @@
             },
             "type": "technology"
         },
-        "castle": {
+        {
+            "id": "castle",
             "name": "Castle",
             "prerequisites": {
                 "age": 3,
@@ -1182,7 +1251,8 @@
             },
             "type": "structure"
         },
-        "castle-age": {
+        {
+            "id": "castle_age",
             "name": "Castle Age",
             "prerequisites": {
                 "age": 2,
@@ -1215,11 +1285,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "cavalier": {
+        {
+            "id": "cavalier",
             "name": "Cavalier",
             "prerequisites": {
                 "age": 4,
@@ -1251,7 +1322,8 @@
             },
             "type": "unit"
         },
-        "cavalry-archer": {
+        {
+            "id": "cavalry_archer",
             "name": "Cavalry Archer",
             "prerequisites": {
                 "age": 3,
@@ -1281,11 +1353,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "chain-barding-armor": {
+        {
+            "id": "chain_barding_armor",
             "name": "Chain Barding Armor",
             "prerequisites": {
                 "age": 3,
@@ -1321,7 +1394,8 @@
             },
             "type": "technology"
         },
-        "chain-mail-armor": {
+        {
+            "id": "chain_mail_armor",
             "name": "Chain Mail Armor",
             "prerequisites": {
                 "age": 3,
@@ -1358,7 +1432,8 @@
             },
             "type": "technology"
         },
-        "champion": {
+        {
+            "id": "champion",
             "name": "Champion",
             "prerequisites": {
                 "age": 4,
@@ -1391,7 +1466,8 @@
             },
             "type": "unit"
         },
-        "chemistry": {
+        {
+            "id": "chemistry",
             "name": "Chemistry",
             "prerequisites": {
                 "age": 4,
@@ -1428,7 +1504,8 @@
             },
             "type": "technology"
         },
-        "chieftains": {
+        {
+            "id": "chieftains",
             "name": "Chieftains",
             "prerequisites": {
                 "age": 3,
@@ -1439,7 +1516,8 @@
             },
             "type": "technology"
         },
-        "chivalry": {
+        {
+            "id": "chivalry",
             "name": "Chivalry",
             "prerequisites": {
                 "age": 3,
@@ -1450,7 +1528,8 @@
             },
             "type": "technology"
         },
-        "chu-ko-nu": {
+        {
+            "id": "chu_ko_nu",
             "name": "Chu Ko Nu",
             "prerequisites": {
                 "age": 3,
@@ -1461,7 +1540,8 @@
             },
             "type": "unit"
         },
-        "coinage": {
+        {
+            "id": "coinage",
             "name": "Coinage",
             "prerequisites": {
                 "age": 2,
@@ -1498,7 +1578,8 @@
             },
             "type": "technology"
         },
-        "condottiero": {
+        {
+            "id": "condottiero",
             "name": "Condottiero",
             "prerequisites": {
                 "age": 4,
@@ -1509,7 +1590,8 @@
             },
             "type": "unit"
         },
-        "conquistador": {
+        {
+            "id": "conquistador",
             "name": "Conquistador",
             "prerequisites": {
                 "age": 3,
@@ -1520,7 +1602,8 @@
             },
             "type": "unit"
         },
-        "conscription": {
+        {
+            "id": "conscription",
             "name": "Conscription",
             "prerequisites": {
                 "age": 4,
@@ -1557,7 +1640,8 @@
             },
             "type": "technology"
         },
-        "couriers": {
+        {
+            "id": "couriers",
             "name": "Couriers",
             "prerequisites": {
                 "age": 4,
@@ -1568,7 +1652,8 @@
             },
             "type": "technology"
         },
-        "crenellations": {
+        {
+            "id": "crenellations",
             "name": "Crenellations",
             "prerequisites": {
                 "age": 4,
@@ -1579,7 +1664,8 @@
             },
             "type": "technology"
         },
-        "crop-rotation": {
+        {
+            "id": "crop_rotation",
             "name": "Crop Rotation",
             "prerequisites": {
                 "age": 4,
@@ -1613,7 +1699,8 @@
             },
             "type": "technology"
         },
-        "crossbowman": {
+        {
+            "id": "crossbowman",
             "name": "Crossbowman",
             "prerequisites": {
                 "age": 3,
@@ -1645,11 +1732,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "demolition-raft": {
+        {
+            "id": "demolition_raft",
             "name": "Demolition Raft",
             "prerequisites": {
                 "age": 2,
@@ -1684,7 +1772,8 @@
             },
             "type": "unit"
         },
-        "demolition-ship": {
+        {
+            "id": "demolition_ship",
             "name": "Demolition Ship",
             "prerequisites": {
                 "age": 3,
@@ -1719,7 +1808,8 @@
             },
             "type": "unit"
         },
-        "dock": {
+        {
+            "id": "dock",
             "name": "Dock",
             "prerequisites": {
                 "age": 1,
@@ -1755,8 +1845,9 @@
             },
             "type": "structure"
         },
-        "double-bit-axe": {
-            "name": "Double-Bit Axe",
+        {
+            "id": "double_bit_axe",
+            "name": "Double_Bit Axe",
             "prerequisites": {
                 "age": 2,
                 "civilizations": [
@@ -1788,11 +1879,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "lumber-camp"
+                "structure": "lumber_camp"
             },
             "type": "technology"
         },
-        "drill": {
+        {
+            "id": "drill",
             "name": "Drill",
             "prerequisites": {
                 "age": 4,
@@ -1803,7 +1895,8 @@
             },
             "type": "technology"
         },
-        "druzhina": {
+        {
+            "id": "druzhina",
             "name": "Druzhina",
             "prerequisites": {
                 "age": 4,
@@ -1814,7 +1907,8 @@
             },
             "type": "technology"
         },
-        "dry-dock": {
+        {
+            "id": "dry_dock",
             "name": "Dry Dock",
             "prerequisites": {
                 "age": 4,
@@ -1848,7 +1942,8 @@
             },
             "type": "technology"
         },
-        "eagle-scout": {
+        {
+            "id": "eagle_scout",
             "name": "Eagle Scout",
             "prerequisites": {
                 "age": 2,
@@ -1861,7 +1956,8 @@
             },
             "type": "unit"
         },
-        "eagle-warrior": {
+        {
+            "id": "eagle_warrior",
             "name": "Eagle Warrior",
             "prerequisites": {
                 "age": 3,
@@ -1874,7 +1970,8 @@
             },
             "type": "unit"
         },
-        "el-dorado": {
+        {
+            "id": "el_dorado",
             "name": "El Dorado",
             "prerequisites": {
                 "age": 4,
@@ -1885,7 +1982,8 @@
             },
             "type": "technology"
         },
-        "elephant-archer": {
+        {
+            "id": "elephant_archer",
             "name": "Elephant Archer",
             "prerequisites": {
                 "age": 3,
@@ -1896,7 +1994,8 @@
             },
             "type": "unit"
         },
-        "elite-berserk": {
+        {
+            "id": "elite_berserk",
             "name": "Elite Berserk",
             "prerequisites": {
                 "age": 4,
@@ -1907,7 +2006,8 @@
             },
             "type": "unit"
         },
-        "elite-boyar": {
+        {
+            "id": "elite_boyar",
             "name": "Elite Boyar",
             "prerequisites": {
                 "age": 4,
@@ -1918,7 +2018,8 @@
             },
             "type": "unit"
         },
-        "elite-camel-archer": {
+        {
+            "id": "elite_camel_archer",
             "name": "Elite Camel Archer",
             "prerequisites": {
                 "age": 4,
@@ -1929,7 +2030,8 @@
             },
             "type": "unit"
         },
-        "elite-cannon-galleon": {
+        {
+            "id": "elite_cannon_galleon",
             "name": "Elite Cannon Galleon",
             "prerequisites": {
                 "age": 4,
@@ -1950,7 +2052,8 @@
             },
             "type": "unit"
         },
-        "elite-caravel": {
+        {
+            "id": "elite_caravel",
             "name": "Elite Caravel",
             "prerequisites": {
                 "age": 4,
@@ -1961,7 +2064,8 @@
             },
             "type": "unit"
         },
-        "elite-chu-ko-nu": {
+        {
+            "id": "elite_chu_ko_nu",
             "name": "Elite Chu Ko Nu",
             "prerequisites": {
                 "age": 4,
@@ -1972,7 +2076,8 @@
             },
             "type": "unit"
         },
-        "elite-conquistador": {
+        {
+            "id": "elite_conquistador",
             "name": "Elite Conquistador",
             "prerequisites": {
                 "age": 4,
@@ -1983,7 +2088,8 @@
             },
             "type": "unit"
         },
-        "elite-eagle-warrior": {
+        {
+            "id": "elite_eagle_warrior",
             "name": "Elite Eagle Warrior",
             "prerequisites": {
                 "age": 4,
@@ -1996,7 +2102,8 @@
             },
             "type": "unit"
         },
-        "elite-elephant-archer": {
+        {
+            "id": "elite_elephant_archer",
             "name": "Elite Elephant Archer",
             "prerequisites": {
                 "age": 4,
@@ -2007,7 +2114,8 @@
             },
             "type": "unit"
         },
-        "elite-gbeto": {
+        {
+            "id": "elite_gbeto",
             "name": "Elite Gbeto",
             "prerequisites": {
                 "age": 4,
@@ -2018,18 +2126,20 @@
             },
             "type": "unit"
         },
-        "elite-genitour": {
+        {
+            "id": "elite_genitour",
             "name": "Elite Genitour",
             "prerequisites": {
                 "age": 4,
                 "civilizations": [
                     "berbers"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "elite-genoese-crossbowman": {
+        {
+            "id": "elite_genoese_crossbowman",
             "name": "Elite Genoese Crossbowman",
             "prerequisites": {
                 "age": 4,
@@ -2040,7 +2150,8 @@
             },
             "type": "unit"
         },
-        "elite-huskarl": {
+        {
+            "id": "elite_huskarl",
             "name": "Elite Huskarl",
             "prerequisites": {
                 "age": 4,
@@ -2051,7 +2162,8 @@
             },
             "type": "unit"
         },
-        "elite-jaguar-warrior": {
+        {
+            "id": "elite_jaguar_warrior",
             "name": "Elite Jaguar Warrior",
             "prerequisites": {
                 "age": 4,
@@ -2062,7 +2174,8 @@
             },
             "type": "unit"
         },
-        "elite-janissary": {
+        {
+            "id": "elite_janissary",
             "name": "Elite Janissary",
             "prerequisites": {
                 "age": 4,
@@ -2073,7 +2186,8 @@
             },
             "type": "unit"
         },
-        "elite-kamayuk": {
+        {
+            "id": "elite_kamayuk",
             "name": "Elite Kamayuk",
             "prerequisites": {
                 "age": 4,
@@ -2084,7 +2198,8 @@
             },
             "type": "unit"
         },
-        "elite-longboat": {
+        {
+            "id": "elite_longboat",
             "name": "Elite Longboat",
             "prerequisites": {
                 "age": 4,
@@ -2095,7 +2210,8 @@
             },
             "type": "unit"
         },
-        "elite-longbowman": {
+        {
+            "id": "elite_longbowman",
             "name": "Elite Longbowman",
             "prerequisites": {
                 "age": 4,
@@ -2106,7 +2222,8 @@
             },
             "type": "unit"
         },
-        "elite-magyar-huszar": {
+        {
+            "id": "elite_magyar_huszar",
             "name": "Elite Magyar Huszar",
             "prerequisites": {
                 "age": 4,
@@ -2117,7 +2234,8 @@
             },
             "type": "unit"
         },
-        "elite-mameluke": {
+        {
+            "id": "elite_mameluke",
             "name": "Elite Mameluke",
             "prerequisites": {
                 "age": 4,
@@ -2128,7 +2246,8 @@
             },
             "type": "unit"
         },
-        "elite-mangudai": {
+        {
+            "id": "elite_mangudai",
             "name": "Elite Mangudai",
             "prerequisites": {
                 "age": 4,
@@ -2139,7 +2258,8 @@
             },
             "type": "unit"
         },
-        "elite-organ-gun": {
+        {
+            "id": "elite_organ_gun",
             "name": "Elite Organ Gun",
             "prerequisites": {
                 "age": 4,
@@ -2150,7 +2270,8 @@
             },
             "type": "unit"
         },
-        "elite-plumed-archer": {
+        {
+            "id": "elite_plumed_archer",
             "name": "Elite Plumed Archer",
             "prerequisites": {
                 "age": 4,
@@ -2161,7 +2282,8 @@
             },
             "type": "unit"
         },
-        "elite-samurai": {
+        {
+            "id": "elite_samurai",
             "name": "Elite Samurai",
             "prerequisites": {
                 "age": 4,
@@ -2172,7 +2294,8 @@
             },
             "type": "unit"
         },
-        "elite-shotel-warrior": {
+        {
+            "id": "elite_shotel_warrior",
             "name": "Elite Shotel Warrior",
             "prerequisites": {
                 "age": 4,
@@ -2183,7 +2306,8 @@
             },
             "type": "unit"
         },
-        "elite-skirmisher": {
+        {
+            "id": "elite_skirmisher",
             "name": "Elite Skirmisher",
             "prerequisites": {
                 "age": 3,
@@ -2215,11 +2339,12 @@
                     "teutons",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "elite-tarkan": {
+        {
+            "id": "elite_tarkan",
             "name": "Elite Tarkan",
             "prerequisites": {
                 "age": 4,
@@ -2230,7 +2355,8 @@
             },
             "type": "unit"
         },
-        "elite-teutonic-knight": {
+        {
+            "id": "elite_teutonic_knight",
             "name": "Elite Teutonic Knight",
             "prerequisites": {
                 "age": 4,
@@ -2241,7 +2367,8 @@
             },
             "type": "unit"
         },
-        "elite-throwing-axeman": {
+        {
+            "id": "elite_throwing_axeman",
             "name": "Elite Throwing Axeman",
             "prerequisites": {
                 "age": 4,
@@ -2252,7 +2379,8 @@
             },
             "type": "unit"
         },
-        "elite-turtle-ship": {
+        {
+            "id": "elite_turtle_ship",
             "name": "Elite Turtle Ship",
             "prerequisites": {
                 "age": 4,
@@ -2263,7 +2391,8 @@
             },
             "type": "unit"
         },
-        "elite-war-elephant": {
+        {
+            "id": "elite_war_elephant",
             "name": "Elite War Elephant",
             "prerequisites": {
                 "age": 4,
@@ -2274,7 +2403,8 @@
             },
             "type": "unit"
         },
-        "elite-war-wagon": {
+        {
+            "id": "elite_war_wagon",
             "name": "Elite War Wagon",
             "prerequisites": {
                 "age": 4,
@@ -2285,7 +2415,8 @@
             },
             "type": "unit"
         },
-        "elite-woad-raider": {
+        {
+            "id": "elite_woad_raider",
             "name": "Elite Woad Raider",
             "prerequisites": {
                 "age": 4,
@@ -2296,7 +2427,8 @@
             },
             "type": "unit"
         },
-        "faith": {
+        {
+            "id": "faith",
             "name": "Faith",
             "prerequisites": {
                 "age": 4,
@@ -2333,7 +2465,8 @@
             },
             "type": "technology"
         },
-        "farimba": {
+        {
+            "id": "farimba",
             "name": "Farimba",
             "prerequisites": {
                 "age": 4,
@@ -2344,7 +2477,8 @@
             },
             "type": "technology"
         },
-        "farm": {
+        {
+            "id": "farm",
             "name": "Farm",
             "prerequisites": {
                 "age": 1,
@@ -2380,7 +2514,8 @@
             },
             "type": "structure"
         },
-        "fast-fire-ship": {
+        {
+            "id": "fast_fire_ship",
             "name": "Fast Fire Ship",
             "prerequisites": {
                 "age": 4,
@@ -2407,7 +2542,8 @@
             },
             "type": "unit"
         },
-        "fervor": {
+        {
+            "id": "fervor",
             "name": "Fervor",
             "prerequisites": {
                 "age": 3,
@@ -2444,7 +2580,8 @@
             },
             "type": "technology"
         },
-        "feudal-age": {
+        {
+            "id": "feudal_age",
             "name": "Feudal Age",
             "prerequisites": {
                 "age": 1,
@@ -2477,11 +2614,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "fire-galley": {
+        {
+            "id": "fire_galley",
             "name": "Fire Galley",
             "prerequisites": {
                 "age": 2,
@@ -2517,7 +2655,8 @@
             },
             "type": "unit"
         },
-        "fire-ship": {
+        {
+            "id": "fire_ship",
             "name": "Fire Ship",
             "prerequisites": {
                 "age": 3,
@@ -2554,7 +2693,8 @@
             },
             "type": "unit"
         },
-        "fish-trap": {
+        {
+            "id": "fish_trap",
             "name": "Fish Trap",
             "prerequisites": {
                 "age": 2,
@@ -2590,7 +2730,8 @@
             },
             "type": "structure"
         },
-        "fishing-ship": {
+        {
+            "id": "fishing_ship",
             "name": "Fishing Ship",
             "prerequisites": {
                 "age": 1,
@@ -2627,7 +2768,8 @@
             },
             "type": "unit"
         },
-        "fletching": {
+        {
+            "id": "fletching",
             "name": "Fletching",
             "prerequisites": {
                 "age": 2,
@@ -2664,7 +2806,8 @@
             },
             "type": "technology"
         },
-        "forging": {
+        {
+            "id": "forging",
             "name": "Forging",
             "prerequisites": {
                 "age": 2,
@@ -2701,7 +2844,8 @@
             },
             "type": "technology"
         },
-        "fortified-wall": {
+        {
+            "id": "fortified_wall",
             "name": "Fortified Wall",
             "prerequisites": {
                 "age": 3,
@@ -2733,7 +2877,8 @@
             },
             "type": "structure"
         },
-        "fortified-wall-tech": {
+        {
+            "id": "fortified_wall_tech",
             "name": "Fortified Wall",
             "prerequisites": {
                 "age": 3,
@@ -2770,7 +2915,8 @@
             },
             "type": "technology"
         },
-        "furor-celtica": {
+        {
+            "id": "furor_celtica",
             "name": "Furor Celtica",
             "prerequisites": {
                 "age": 4,
@@ -2781,7 +2927,8 @@
             },
             "type": "technology"
         },
-        "galleon": {
+        {
+            "id": "galleon",
             "name": "Galleon",
             "prerequisites": {
                 "age": 4,
@@ -2817,7 +2964,8 @@
             },
             "type": "unit"
         },
-        "galley": {
+        {
+            "id": "galley",
             "name": "Galley",
             "prerequisites": {
                 "age": 2,
@@ -2854,7 +3002,8 @@
             },
             "type": "unit"
         },
-        "garland-wars": {
+        {
+            "id": "garland_wars",
             "name": "Garland Wars",
             "prerequisites": {
                 "age": 4,
@@ -2865,7 +3014,8 @@
             },
             "type": "technology"
         },
-        "gate": {
+        {
+            "id": "gate",
             "name": "Gate",
             "prerequisites": {
                 "age": 2,
@@ -2900,7 +3050,8 @@
             },
             "type": "structure"
         },
-        "gbeto": {
+        {
+            "id": "gbeto",
             "name": "Gbeto",
             "prerequisites": {
                 "age": 3,
@@ -2911,18 +3062,20 @@
             },
             "type": "unit"
         },
-        "genitour": {
+        {
+            "id": "genitour",
             "name": "Genitour",
             "prerequisites": {
                 "age": 3,
                 "civilizations": [
                     "berbers"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "genoese-crossbowman": {
+        {
+            "id": "genoese_crossbowman",
             "name": "Genoese Crossbowman",
             "prerequisites": {
                 "age": 3,
@@ -2933,7 +3086,8 @@
             },
             "type": "unit"
         },
-        "gillnets": {
+        {
+            "id": "gillnets",
             "name": "Gillnets",
             "prerequisites": {
                 "age": 3,
@@ -2970,7 +3124,8 @@
             },
             "type": "technology"
         },
-        "gold-mining": {
+        {
+            "id": "gold_mining",
             "name": "Gold Mining",
             "prerequisites": {
                 "age": 2,
@@ -3003,11 +3158,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "mining-camp"
+                "structure": "mining_camp"
             },
             "type": "technology"
         },
-        "gold-shaft-mining": {
+        {
+            "id": "gold_shaft_mining",
             "name": "Gold Shaft Mining",
             "prerequisites": {
                 "age": 3,
@@ -3040,11 +3196,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "mining-camp"
+                "structure": "mining_camp"
             },
             "type": "technology"
         },
-        "great-wall": {
+        {
+            "id": "great_wall",
             "name": "Great Wall",
             "prerequisites": {
                 "age": 3,
@@ -3055,7 +3212,8 @@
             },
             "type": "technology"
         },
-        "greek-fire": {
+        {
+            "id": "greek_fire",
             "name": "Greek Fire",
             "prerequisites": {
                 "age": 3,
@@ -3066,7 +3224,8 @@
             },
             "type": "technology"
         },
-        "guard-tower": {
+        {
+            "id": "guard_tower",
             "name": "Guard Tower",
             "prerequisites": {
                 "age": 3,
@@ -3102,7 +3261,8 @@
             },
             "type": "structure"
         },
-        "guard-tower-tech": {
+        {
+            "id": "guard_tower_tech",
             "name": "Gate",
             "prerequisites": {
                 "age": 2,
@@ -3139,7 +3299,8 @@
             },
             "type": "structure"
         },
-        "guilds": {
+        {
+            "id": "guilds",
             "name": "Guilds",
             "prerequisites": {
                 "age": 4,
@@ -3175,7 +3336,8 @@
             },
             "type": "technology"
         },
-        "halberdier": {
+        {
+            "id": "halberdier",
             "name": "Halberdier",
             "prerequisites": {
                 "age": 4,
@@ -3205,7 +3367,8 @@
             },
             "type": "unit"
         },
-        "hand-cannoneer": {
+        {
+            "id": "hand_cannoneer",
             "name": "Hand Cannoneer",
             "prerequisites": {
                 "age": 4,
@@ -3226,11 +3389,12 @@
                     "teutons",
                     "turks"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "hand-cart": {
+        {
+            "id": "hand_cart",
             "name": "Hand Cart",
             "prerequisites": {
                 "age": 3,
@@ -3267,7 +3431,8 @@
             },
             "type": "technology"
         },
-        "heated-shot": {
+        {
+            "id": "heated_shot",
             "name": "Heated Shot",
             "prerequisites": {
                 "age": 3,
@@ -3303,7 +3468,8 @@
             },
             "type": "technology"
         },
-        "heavy-camel": {
+        {
+            "id": "heavy_camel",
             "name": "Heavy Camel",
             "prerequisites": {
                 "age": 4,
@@ -3323,7 +3489,8 @@
             },
             "type": "unit"
         },
-        "heavy-cavalry-archer": {
+        {
+            "id": "heavy_cavalry_archer",
             "name": "Heavy Cavalry Archer",
             "prerequisites": {
                 "age": 4,
@@ -3349,11 +3516,12 @@
                     "spanish",
                     "turks"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "heavy-demolition-ship": {
+        {
+            "id": "heavy_demolition_ship",
             "name": "Heavy Demolition Ship",
             "prerequisites": {
                 "age": 4,
@@ -3382,7 +3550,8 @@
             },
             "type": "unit"
         },
-        "heavy-plow": {
+        {
+            "id": "heavy_plow",
             "name": "Heavy Plow",
             "prerequisites": {
                 "age": 3,
@@ -3419,7 +3588,8 @@
             },
             "type": "technology"
         },
-        "heavy-scorpion": {
+        {
+            "id": "heavy_scorpion",
             "name": "Heavy Scorpion",
             "prerequisites": {
                 "age": 4,
@@ -3450,11 +3620,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "herbal-medicine": {
+        {
+            "id": "herbal_medicine",
             "name": "Herbal Medicine",
             "prerequisites": {
                 "age": 3,
@@ -3486,7 +3657,8 @@
             },
             "type": "technology"
         },
-        "heresy": {
+        {
+            "id": "heresy",
             "name": "Heresy",
             "prerequisites": {
                 "age": 3,
@@ -3514,7 +3686,8 @@
             },
             "type": "technology"
         },
-        "hoardings": {
+        {
+            "id": "hoardings",
             "name": "Hoardings",
             "prerequisites": {
                 "age": 4,
@@ -3543,7 +3716,8 @@
             },
             "type": "technology"
         },
-        "horse-collar": {
+        {
+            "id": "horse_collar",
             "name": "Horse Collar",
             "prerequisites": {
                 "age": 2,
@@ -3580,7 +3754,8 @@
             },
             "type": "technology"
         },
-        "house": {
+        {
+            "id": "house",
             "name": "House",
             "prerequisites": {
                 "age": 1,
@@ -3616,7 +3791,8 @@
             },
             "type": "structure"
         },
-        "husbandry": {
+        {
+            "id": "husbandry",
             "name": "Husbandry",
             "prerequisites": {
                 "age": 3,
@@ -3648,7 +3824,8 @@
             },
             "type": "technology"
         },
-        "huskarl": {
+        {
+            "id": "huskarl",
             "name": "Huskarl",
             "prerequisites": {
                 "age": 3,
@@ -3659,7 +3836,8 @@
             },
             "type": "unit"
         },
-        "hussar": {
+        {
+            "id": "hussar",
             "name": "Hussar",
             "prerequisites": {
                 "age": 4,
@@ -3685,7 +3863,8 @@
             },
             "type": "unit"
         },
-        "illumination": {
+        {
+            "id": "illumination",
             "name": "Illumination",
             "prerequisites": {
                 "age": 4,
@@ -3721,7 +3900,8 @@
             },
             "type": "technology"
         },
-        "imperial-age": {
+        {
+            "id": "imperial_age",
             "name": "Imperial Age",
             "prerequisites": {
                 "age": 3,
@@ -3754,11 +3934,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "imperial-camel": {
+        {
+            "id": "imperial_camel",
             "name": "Imperial Camel",
             "prerequisites": {
                 "age": 4,
@@ -3769,7 +3950,8 @@
             },
             "type": "unit"
         },
-        "inquisition": {
+        {
+            "id": "inquisition",
             "name": "Inquisition",
             "prerequisites": {
                 "age": 3,
@@ -3780,7 +3962,8 @@
             },
             "type": "technology"
         },
-        "iron-casting": {
+        {
+            "id": "iron_casting",
             "name": "Iron Casting",
             "prerequisites": {
                 "age": 3,
@@ -3817,7 +4000,8 @@
             },
             "type": "technology"
         },
-        "ironclad": {
+        {
+            "id": "ironclad",
             "name": "Ironclad",
             "prerequisites": {
                 "age": 3,
@@ -3828,7 +4012,8 @@
             },
             "type": "technology"
         },
-        "jaguar-warrior": {
+        {
+            "id": "jaguar_warrior",
             "name": "Jaguar Warrior",
             "prerequisites": {
                 "age": 3,
@@ -3839,7 +4024,8 @@
             },
             "type": "unit"
         },
-        "janissary": {
+        {
+            "id": "janissary",
             "name": "Janissary",
             "prerequisites": {
                 "age": 3,
@@ -3850,7 +4036,8 @@
             },
             "type": "unit"
         },
-        "kamayuk": {
+        {
+            "id": "kamayuk",
             "name": "Kamayuk",
             "prerequisites": {
                 "age": 3,
@@ -3861,7 +4048,8 @@
             },
             "type": "unit"
         },
-        "kasbah": {
+        {
+            "id": "kasbah",
             "name": "Kasbah",
             "prerequisites": {
                 "age": 3,
@@ -3872,7 +4060,8 @@
             },
             "type": "technology"
         },
-        "kataparuto": {
+        {
+            "id": "kataparuto",
             "name": "Kataparuto",
             "prerequisites": {
                 "age": 4,
@@ -3883,7 +4072,8 @@
             },
             "type": "technology"
         },
-        "keep": {
+        {
+            "id": "keep",
             "name": "Keep",
             "prerequisites": {
                 "age": 4,
@@ -3908,7 +4098,8 @@
             },
             "type": "structure"
         },
-        "keep-tech": {
+        {
+            "id": "keep_tech",
             "name": "Keep",
             "prerequisites": {
                 "age": 4,
@@ -3943,7 +4134,8 @@
             },
             "type": "technology"
         },
-        "knight": {
+        {
+            "id": "knight",
             "name": "Knight",
             "prerequisites": {
                 "age": 3,
@@ -3978,7 +4170,8 @@
             },
             "type": "unit"
         },
-        "leather-archer-armor": {
+        {
+            "id": "leather_archer_armor",
             "name": "Leather Archer Armor",
             "prerequisites": {
                 "age": 3,
@@ -4015,7 +4208,8 @@
             },
             "type": "technology"
         },
-        "light-cavalry": {
+        {
+            "id": "light_cavalry",
             "name": "Light Cavalry",
             "prerequisites": {
                 "age": 3,
@@ -4048,7 +4242,8 @@
             },
             "type": "unit"
         },
-        "logistica": {
+        {
+            "id": "logistica",
             "name": "Logistica",
             "prerequisites": {
                 "age": 4,
@@ -4059,7 +4254,8 @@
             },
             "type": "technology"
         },
-        "long-swordsman": {
+        {
+            "id": "long_swordsman",
             "name": "Long Swordsman",
             "prerequisites": {
                 "age": 3,
@@ -4096,7 +4292,8 @@
             },
             "type": "unit"
         },
-        "longboat": {
+        {
+            "id": "longboat",
             "name": "Longboat",
             "prerequisites": {
                 "age": 3,
@@ -4107,7 +4304,8 @@
             },
             "type": "unit"
         },
-        "longbowman": {
+        {
+            "id": "longbowman",
             "name": "Longbowman",
             "prerequisites": {
                 "age": 3,
@@ -4118,7 +4316,8 @@
             },
             "type": "unit"
         },
-        "loom": {
+        {
+            "id": "loom",
             "name": "Loom",
             "prerequisites": {
                 "age": 1,
@@ -4151,11 +4350,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "lumber-camp": {
+        {
+            "id": "lumber_camp",
             "name": "Lumber Camp",
             "prerequisites": {
                 "age": 1,
@@ -4191,7 +4391,8 @@
             },
             "type": "structure"
         },
-        "madrasah": {
+        {
+            "id": "madrasah",
             "name": "Madrasah",
             "prerequisites": {
                 "age": 3,
@@ -4202,7 +4403,8 @@
             },
             "type": "technology"
         },
-        "maghrabi-camels": {
+        {
+            "id": "maghrabi_camels",
             "name": "Maghrabi Camels",
             "prerequisites": {
                 "age": 4,
@@ -4213,7 +4415,8 @@
             },
             "type": "technology"
         },
-        "magyar-huszar": {
+        {
+            "id": "magyar_huszar",
             "name": "Magyar Huszar",
             "prerequisites": {
                 "age": 3,
@@ -4224,7 +4427,8 @@
             },
             "type": "unit"
         },
-        "mahouts": {
+        {
+            "id": "mahouts",
             "name": "Mahouts",
             "prerequisites": {
                 "age": 4,
@@ -4235,7 +4439,8 @@
             },
             "type": "technology"
         },
-        "mameluke": {
+        {
+            "id": "mameluke",
             "name": "Mameluke",
             "prerequisites": {
                 "age": 3,
@@ -4246,8 +4451,9 @@
             },
             "type": "unit"
         },
-        "man-at-arms": {
-            "name": "Man-at-Arms",
+        {
+            "id": "man_at_arms",
+            "name": "Man_at_Arms",
             "prerequisites": {
                 "age": 2,
                 "civilizations": [
@@ -4283,7 +4489,8 @@
             },
             "type": "unit"
         },
-        "mangonel": {
+        {
+            "id": "mangonel",
             "name": "Mangonel",
             "prerequisites": {
                 "age": 3,
@@ -4316,11 +4523,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "mangudai": {
+        {
+            "id": "mangudai",
             "name": "Mangudai",
             "prerequisites": {
                 "age": 3,
@@ -4331,7 +4539,8 @@
             },
             "type": "unit"
         },
-        "marauders": {
+        {
+            "id": "marauders",
             "name": "Marauders",
             "prerequisites": {
                 "age": 3,
@@ -4342,7 +4551,8 @@
             },
             "type": "technology"
         },
-        "market": {
+        {
+            "id": "market",
             "name": "market",
             "prerequisites": {
                 "age": 2,
@@ -4378,7 +4588,8 @@
             },
             "type": "structure"
         },
-        "masonry": {
+        {
+            "id": "masonry",
             "name": "Masonry",
             "prerequisites": {
                 "age": 3,
@@ -4413,7 +4624,8 @@
             },
             "type": "technology"
         },
-        "mercenaries": {
+        {
+            "id": "mercenaries",
             "name": "Mercenaries",
             "prerequisites": {
                 "age": 3,
@@ -4424,7 +4636,8 @@
             },
             "type": "technology"
         },
-        "militia": {
+        {
+            "id": "militia",
             "name": "Militia",
             "prerequisites": {
                 "age": 1,
@@ -4461,7 +4674,8 @@
             },
             "type": "unit"
         },
-        "mill": {
+        {
+            "id": "mill",
             "name": "Mill",
             "prerequisites": {
                 "age": 1,
@@ -4497,7 +4711,8 @@
             },
             "type": "structure"
         },
-        "mining-camp": {
+        {
+            "id": "mining_camp",
             "name": "Mining Camp",
             "prerequisites": {
                 "age": 1,
@@ -4533,7 +4748,8 @@
             },
             "type": "structure"
         },
-        "missionary": {
+        {
+            "id": "missionary",
             "name": "Missionary",
             "prerequisites": {
                 "age": 3,
@@ -4544,7 +4760,8 @@
             },
             "type": "unit"
         },
-        "monastery": {
+        {
+            "id": "monastery",
             "name": "Monastery",
             "prerequisites": {
                 "age": 3,
@@ -4580,7 +4797,8 @@
             },
             "type": "structure"
         },
-        "monk": {
+        {
+            "id": "monk",
             "name": "Monk",
             "prerequisites": {
                 "age": 3,
@@ -4617,7 +4835,8 @@
             },
             "type": "unit"
         },
-        "murder-holes": {
+        {
+            "id": "murder_holes",
             "name": "Murder Holes",
             "prerequisites": {
                 "age": 3,
@@ -4654,7 +4873,8 @@
             },
             "type": "technology"
         },
-        "nomads": {
+        {
+            "id": "nomads",
             "name": "Nomads",
             "prerequisites": {
                 "age": 3,
@@ -4665,7 +4885,8 @@
             },
             "type": "technology"
         },
-        "obsidian-arrows": {
+        {
+            "id": "obsidian_arrows",
             "name": "Obsidian Arrows",
             "prerequisites": {
                 "age": 3,
@@ -4676,7 +4897,8 @@
             },
             "type": "technology"
         },
-        "onager": {
+        {
+            "id": "onager",
             "name": "Onager",
             "prerequisites": {
                 "age": 4,
@@ -4709,11 +4931,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "organ-gun": {
+        {
+            "id": "organ_gun",
             "name": "Organ Gun",
             "prerequisites": {
                 "age": 3,
@@ -4724,7 +4947,8 @@
             },
             "type": "unit"
         },
-        "orthodoxy": {
+        {
+            "id": "orthodoxy",
             "name": "Orthodoxy",
             "prerequisites": {
                 "age": 3,
@@ -4735,7 +4959,8 @@
             },
             "type": "technology"
         },
-        "outpost": {
+        {
+            "id": "outpost",
             "name": "Outpost",
             "prerequisites": {
                 "age": 1,
@@ -4771,7 +4996,8 @@
             },
             "type": "structure"
         },
-        "padded-archer-armor": {
+        {
+            "id": "padded_archer_armor",
             "name": "Padded Archer Armor",
             "prerequisites": {
                 "age": 2,
@@ -4808,7 +5034,8 @@
             },
             "type": "technology"
         },
-        "paladin": {
+        {
+            "id": "paladin",
             "name": "Paladin",
             "prerequisites": {
                 "age": 4,
@@ -4826,7 +5053,8 @@
             },
             "type": "unit"
         },
-        "palisade-gate": {
+        {
+            "id": "palisade_gate",
             "name": "Palisade Gate",
             "prerequisites": {
                 "age": 1,
@@ -4862,7 +5090,8 @@
             },
             "type": "structure"
         },
-        "palisade-wall": {
+        {
+            "id": "palisade_wall",
             "name": "Palisade Wall",
             "prerequisites": {
                 "age": 1,
@@ -4898,7 +5127,8 @@
             },
             "type": "structure"
         },
-        "panokseon": {
+        {
+            "id": "panokseon",
             "name": "Panokseon",
             "prerequisites": {
                 "age": 3,
@@ -4909,7 +5139,8 @@
             },
             "type": "technology"
         },
-        "parthian-tactics": {
+        {
+            "id": "parthian_tactics",
             "name": "Partian Tactics",
             "prerequisites": {
                 "age": 4,
@@ -4923,11 +5154,12 @@
                     "saracens",
                     "turks"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "technology"
         },
-        "pavise": {
+        {
+            "id": "pavise",
             "name": "Pavise",
             "prerequisites": {
                 "age": 3,
@@ -4938,7 +5170,8 @@
             },
             "type": "technology"
         },
-        "perfusion": {
+        {
+            "id": "perfusion",
             "name": "Perfusion",
             "prerequisites": {
                 "age": 4,
@@ -4949,7 +5182,8 @@
             },
             "type": "technology"
         },
-        "petard": {
+        {
+            "id": "petard",
             "name": "Petard",
             "prerequisites": {
                 "age": 3,
@@ -4986,7 +5220,8 @@
             },
             "type": "unit"
         },
-        "pikeman": {
+        {
+            "id": "pikeman",
             "name": "Pikeman",
             "prerequisites": {
                 "age": 3,
@@ -5022,7 +5257,8 @@
             },
             "type": "unit"
         },
-        "plate-barding-armor": {
+        {
+            "id": "plate_barding_armor",
             "name": "Plate Barding Armor",
             "prerequisites": {
                 "age": 4,
@@ -5057,7 +5293,8 @@
             },
             "type": "technology"
         },
-        "plate-mail-armor": {
+        {
+            "id": "plate_mail_armor",
             "name": "Plate Mail Armor",
             "prerequisites": {
                 "age": 4,
@@ -5094,7 +5331,8 @@
             },
             "type": "technology"
         },
-        "plumed-archer": {
+        {
+            "id": "plumed_archer",
             "name": "Plumed Archer",
             "prerequisites": {
                 "age": 3,
@@ -5105,7 +5343,8 @@
             },
             "type": "unit"
         },
-        "recurve-bow": {
+        {
+            "id": "recurve_bow",
             "name": "Recurve Bow",
             "prerequisites": {
                 "age": 4,
@@ -5116,7 +5355,8 @@
             },
             "type": "technology"
         },
-        "redemption": {
+        {
+            "id": "redemption",
             "name": "Redemption",
             "prerequisites": {
                 "age": 3,
@@ -5141,7 +5381,8 @@
             },
             "type": "technology"
         },
-        "ring-archer-armor": {
+        {
+            "id": "ring_archer_armor",
             "name": "Ring Archer Armor",
             "prerequisites": {
                 "age": 4,
@@ -5175,7 +5416,8 @@
             },
             "type": "technology"
         },
-        "rocketry": {
+        {
+            "id": "rocketry",
             "name": "Rocketry",
             "prerequisites": {
                 "age": 4,
@@ -5186,7 +5428,8 @@
             },
             "type": "technology"
         },
-        "royal-heirs": {
+        {
+            "id": "royal_heirs",
             "name": "Royal Heirs",
             "prerequisites": {
                 "age": 3,
@@ -5197,7 +5440,8 @@
             },
             "type": "technology"
         },
-        "samurai": {
+        {
+            "id": "samurai",
             "name": "Samurai",
             "prerequisites": {
                 "age": 3,
@@ -5208,7 +5452,8 @@
             },
             "type": "unit"
         },
-        "sanctity": {
+        {
+            "id": "sanctity",
             "name": "Sanctity",
             "prerequisites": {
                 "age": 3,
@@ -5241,7 +5486,8 @@
             },
             "type": "technology"
         },
-        "sappers": {
+        {
+            "id": "sappers",
             "name": "Sappers",
             "prerequisites": {
                 "age": 4,
@@ -5270,7 +5516,8 @@
             },
             "type": "technology"
         },
-        "scale-barding-armor": {
+        {
+            "id": "scale_barding_armor",
             "name": "Scale Barding Armor",
             "prerequisites": {
                 "age": 2,
@@ -5306,7 +5553,8 @@
             },
             "type": "technology"
         },
-        "scale-mail-armor": {
+        {
+            "id": "scale_mail_armor",
             "name": "Scale Mail Armor",
             "prerequisites": {
                 "age": 2,
@@ -5343,7 +5591,8 @@
             },
             "type": "technology"
         },
-        "scorpion": {
+        {
+            "id": "scorpion",
             "name": "Scorpion",
             "prerequisites": {
                 "age": 3,
@@ -5376,11 +5625,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "scout-cavalry": {
+        {
+            "id": "scout_cavalry",
             "name": "Scout Cavalry",
             "prerequisites": {
                 "age": 2,
@@ -5414,7 +5664,8 @@
             },
             "type": "unit"
         },
-        "shatagni": {
+        {
+            "id": "shatagni",
             "name": "Shatagni",
             "prerequisites": {
                 "age": 4,
@@ -5425,7 +5676,8 @@
             },
             "type": "technology"
         },
-        "shinkichon": {
+        {
+            "id": "shinkichon",
             "name": "Shinkichon",
             "prerequisites": {
                 "age": 4,
@@ -5436,7 +5688,8 @@
             },
             "type": "technology"
         },
-        "shipwright": {
+        {
+            "id": "shipwright",
             "name": "Shipwright",
             "prerequisites": {
                 "age": 4,
@@ -5462,7 +5715,8 @@
             },
             "type": "technology"
         },
-        "shotel-warrior": {
+        {
+            "id": "shotel_warrior",
             "name": "Shotel Warrior",
             "prerequisites": {
                 "age": 3,
@@ -5473,7 +5727,8 @@
             },
             "type": "unit"
         },
-        "siege-engineers": {
+        {
+            "id": "siege_engineers",
             "name": "Siege Engineers",
             "prerequisites": {
                 "age": 4,
@@ -5508,7 +5763,8 @@
             },
             "type": "technology"
         },
-        "siege-onager": {
+        {
+            "id": "siege_onager",
             "name": "Siege Onager",
             "prerequisites": {
                 "age": 4,
@@ -5537,11 +5793,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "siege-ram": {
+        {
+            "id": "siege_ram",
             "name": "Siege Ram",
             "prerequisites": {
                 "age": 4,
@@ -5572,11 +5829,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "siege-tower": {
+        {
+            "id": "siege_tower",
             "name": "Siege Tower",
             "prerequisites": {
                 "age": 3,
@@ -5609,11 +5867,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "siege-workshop"
+                "structure": "siege_workshop"
             },
             "type": "unit"
         },
-        "siege-workshop": {
+        {
+            "id": "siege_workshop",
             "name": "Siege Workshop",
             "prerequisites": {
                 "age": 3,
@@ -5649,7 +5908,8 @@
             },
             "type": "structure"
         },
-        "silk-road": {
+        {
+            "id": "silk_road",
             "name": "Silk Road",
             "prerequisites": {
                 "age": 4,
@@ -5660,7 +5920,8 @@
             },
             "type": "technology"
         },
-        "sipahi": {
+        {
+            "id": "sipahi",
             "name": "Sipahi",
             "prerequisites": {
                 "age": 3,
@@ -5671,7 +5932,8 @@
             },
             "type": "technology"
         },
-        "skirmisher": {
+        {
+            "id": "skirmisher",
             "name": "Skirmisher",
             "prerequisites": {
                 "age": 2,
@@ -5704,22 +5966,24 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "slinger": {
+        {
+            "id": "slinger",
             "name": "Slinger",
             "prerequisites": {
                 "age": 3,
                 "civilizations": [
                     "incas"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "unit"
         },
-        "spearman": {
+        {
+            "id": "spearman",
             "name": "Spearman",
             "prerequisites": {
                 "age": 2,
@@ -5756,7 +6020,8 @@
             },
             "type": "unit"
         },
-        "spies-treason": {
+        {
+            "id": "spies_treason",
             "name": "Spies/Treason",
             "prerequisites": {
                 "age": 4,
@@ -5793,7 +6058,8 @@
             },
             "type": "technology"
         },
-        "squires": {
+        {
+            "id": "squires",
             "name": "Squires",
             "prerequisites": {
                 "age": 3,
@@ -5827,7 +6093,8 @@
             },
             "type": "technology"
         },
-        "stable": {
+        {
+            "id": "stable",
             "name": "Stable",
             "prerequisites": {
                 "age": 2,
@@ -5860,7 +6127,8 @@
             },
             "type": "structure"
         },
-        "stone-mining": {
+        {
+            "id": "stone_mining",
             "name": "Stone Mining",
             "prerequisites": {
                 "age": 2,
@@ -5893,11 +6161,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "mining-camp"
+                "structure": "mining_camp"
             },
             "type": "technology"
         },
-        "stone-shaft-mining": {
+        {
+            "id": "stone_shaft_mining",
             "name": "Stone Shaft Mining",
             "prerequisites": {
                 "age": 3,
@@ -5929,11 +6198,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "mining-camp"
+                "structure": "mining_camp"
             },
             "type": "technology"
         },
-        "stone-wall": {
+        {
+            "id": "stone_wall",
             "name": "Stone Wall",
             "prerequisites": {
                 "age": 2,
@@ -5968,7 +6238,8 @@
             },
             "type": "structure"
         },
-        "stronghold": {
+        {
+            "id": "stronghold",
             "name": "Stronghold",
             "prerequisites": {
                 "age": 3,
@@ -5979,7 +6250,8 @@
             },
             "type": "technology"
         },
-        "sultans": {
+        {
+            "id": "sultans",
             "name": "Sultans",
             "prerequisites": {
                 "age": 3,
@@ -5990,7 +6262,8 @@
             },
             "type": "technology"
         },
-        "supremacy": {
+        {
+            "id": "supremacy",
             "name": "Supremacy",
             "prerequisites": {
                 "age": 4,
@@ -6001,7 +6274,8 @@
             },
             "type": "technology"
         },
-        "tarkan": {
+        {
+            "id": "tarkan",
             "name": "Tarkan",
             "prerequisites": {
                 "age": 3,
@@ -6012,7 +6286,8 @@
             },
             "type": "unit"
         },
-        "teutonic-knight": {
+        {
+            "id": "teutonic_knight",
             "name": "Teutonic Knight",
             "prerequisites": {
                 "age": 3,
@@ -6023,7 +6298,8 @@
             },
             "type": "unit"
         },
-        "theocracy": {
+        {
+            "id": "theocracy",
             "name": "Theocracy",
             "prerequisites": {
                 "age": 4,
@@ -6059,7 +6335,8 @@
             },
             "type": "technology"
         },
-        "throwing-axeman": {
+        {
+            "id": "throwing_axeman",
             "name": "Throwing Axeman",
             "prerequisites": {
                 "age": 3,
@@ -6070,7 +6347,8 @@
             },
             "type": "unit"
         },
-        "thumb-ring": {
+        {
+            "id": "thumb_ring",
             "name": "Thumb Ring",
             "prerequisites": {
                 "age": 3,
@@ -6096,11 +6374,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "archery-range"
+                "structure": "archery_range"
             },
             "type": "technology"
         },
-        "tigui": {
+        {
+            "id": "tigui",
             "name": "Tigui",
             "prerequisites": {
                 "age": 3,
@@ -6111,7 +6390,8 @@
             },
             "type": "technology"
         },
-        "torsion-engines": {
+        {
+            "id": "torsion_engines",
             "name": "Torsion Engines",
             "prerequisites": {
                 "age": 4,
@@ -6122,7 +6402,8 @@
             },
             "type": "technology"
         },
-        "town-center": {
+        {
+            "id": "town_center",
             "name": "Town Center",
             "prerequisites": {
                 "age": 1,
@@ -6158,7 +6439,8 @@
             },
             "type": "structure"
         },
-        "town-patrol": {
+        {
+            "id": "town_patrol",
             "name": "Town Patrol",
             "prerequisites": {
                 "age": 3,
@@ -6191,11 +6473,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "town-watch": {
+        {
+            "id": "town_watch",
             "name": "Town Watch",
             "prerequisites": {
                 "age": 2,
@@ -6228,11 +6511,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "tracking": {
+        {
+            "id": "tracking",
             "name": "Tracking",
             "prerequisites": {
                 "age": 2,
@@ -6269,7 +6553,8 @@
             },
             "type": "technology"
         },
-        "trade-cart": {
+        {
+            "id": "trade_cart",
             "name": "Trade Cart",
             "prerequisites": {
                 "age": 2,
@@ -6306,7 +6591,8 @@
             },
             "type": "unit"
         },
-        "trade-cog": {
+        {
+            "id": "trade_cog",
             "name": "Trade Cog",
             "prerequisites": {
                 "age": 2,
@@ -6343,7 +6629,8 @@
             },
             "type": "unit"
         },
-        "transport-ship": {
+        {
+            "id": "transport_ship",
             "name": "Transport Ship",
             "prerequisites": {
                 "age": 1,
@@ -6380,7 +6667,8 @@
             },
             "type": "unit"
         },
-        "treadmill-crane": {
+        {
+            "id": "treadmill_crane",
             "name": "Treadmill Crane",
             "prerequisites": {
                 "age": 3,
@@ -6414,7 +6702,8 @@
             },
             "type": "technology"
         },
-        "trebuchet": {
+        {
+            "id": "trebuchet",
             "name": "Trebuchet",
             "prerequisites": {
                 "age": 4,
@@ -6451,7 +6740,8 @@
             },
             "type": "unit"
         },
-        "turtle-ship": {
+        {
+            "id": "turtle_ship",
             "name": "Turtle Ship",
             "prerequisites": {
                 "age": 3,
@@ -6462,8 +6752,9 @@
             },
             "type": "unit"
         },
-        "two-handed-swordsman": {
-            "name": "Two-Handed Swordsman",
+        {
+            "id": "two_handed_swordsman",
+            "name": "Two_Handed Swordsman",
             "prerequisites": {
                 "age": 4,
                 "civilizations": [
@@ -6498,8 +6789,9 @@
             },
             "type": "unit"
         },
-        "two-man-saw": {
-            "name": "Two-Man Saw",
+        {
+            "id": "two_man_saw",
+            "name": "Two_Man Saw",
             "prerequisites": {
                 "age": 4,
                 "civilizations": [
@@ -6528,11 +6820,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "lumber-camp"
+                "structure": "lumber_camp"
             },
             "type": "technology"
         },
-        "university": {
+        {
+            "id": "university",
             "name": "University",
             "prerequisites": {
                 "age": 3,
@@ -6568,7 +6861,8 @@
             },
             "type": "structure"
         },
-        "villager": {
+        {
+            "id": "villager",
             "name": "Villager",
             "prerequisites": {
                 "age": 1,
@@ -6601,11 +6895,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "unit"
         },
-        "war-elephant": {
+        {
+            "id": "war_elephant",
             "name": "War Elephant",
             "prerequisites": {
                 "age": 3,
@@ -6616,7 +6911,8 @@
             },
             "type": "unit"
         },
-        "war-galley": {
+        {
+            "id": "war_galley",
             "name": "War Galley",
             "prerequisites": {
                 "age": 3,
@@ -6653,7 +6949,8 @@
             },
             "type": "unit"
         },
-        "war-wagon": {
+        {
+            "id": "war_wagon",
             "name": "War Wagon",
             "prerequisites": {
                 "age": 3,
@@ -6664,7 +6961,8 @@
             },
             "type": "unit"
         },
-        "warwolf": {
+        {
+            "id": "warwolf",
             "name": "Warwolf",
             "prerequisites": {
                 "age": 4,
@@ -6675,7 +6973,8 @@
             },
             "type": "technology"
         },
-        "watch-tower": {
+        {
+            "id": "watch_tower",
             "name": "Watch Tower",
             "prerequisites": {
                 "age": 2,
@@ -6709,7 +7008,8 @@
             },
             "type": "structure"
         },
-        "wheelbarrow": {
+        {
+            "id": "wheelbarrow",
             "name": "Wheelbarrow",
             "prerequisites": {
                 "age": 2,
@@ -6742,11 +7042,12 @@
                     "turks",
                     "vikings"
                 ],
-                "structure": "town-center"
+                "structure": "town_center"
             },
             "type": "technology"
         },
-        "woad-raider": {
+        {
+            "id": "woad_raider",
             "name": "Woad Raider",
             "prerequisites": {
                 "age": 3,
@@ -6757,7 +7058,8 @@
             },
             "type": "unit"
         },
-        "wonder": {
+        {
+            "id": "wonder",
             "name": "Wonder",
             "prerequisites": {
                 "age": 4,
@@ -6793,7 +7095,8 @@
             },
             "type": "structure"
         },
-        "yasama": {
+        {
+            "id": "yasama",
             "name": "Yasama",
             "prerequisites": {
                 "age": 3,
@@ -6804,7 +7107,8 @@
             },
             "type": "technology"
         },
-        "yeomen": {
+        {
+            "id": "yeomen",
             "name": "Yeomen",
             "prerequisites": {
                 "age": 3,
@@ -6815,7 +7119,8 @@
             },
             "type": "technology"
         },
-        "zealotry": {
+        {
+            "id": "zealotry",
             "name": "Zealotry",
             "prerequisites": {
                 "age": 4,
@@ -6826,40 +7131,40 @@
             },
             "type": "technology"
         }
-    },
-    "technology-tree": {
+    ],
+    "technology_tree": {
         "barracks": {
-            "archery-range": {
+            "archery_range": {
                 "archer": {
                     "crossbowman": {
                         "arbalest": null
                     }
                 },
-                "cavalry-archer": {
-                    "heavy-cavalry-archer": null
+                "cavalry_archer": {
+                    "heavy_cavalry_archer": null
                 },
                 "genitour": {
-                    "elite-genitour": null
+                    "elite_genitour": null
                 },
-                "hand-cannoneer": null,
-                "parthian-tactics": null,
+                "hand_cannoneer": null,
+                "parthian_tactics": null,
                 "skirmisher": {
-                    "elite-skirmisher": null
+                    "elite_skirmisher": null
                 },
                 "slinger": null,
-                "thumb-ring": null
+                "thumb_ring": null
             },
             "arson": null,
             "condottiero": null,
-            "eagle-scout": {
-                "eagle-warrior": {
-                    "elite-eagle-warrior": null
+            "eagle_scout": {
+                "eagle_warrior": {
+                    "elite_eagle_warrior": null
                 }
             },
             "militia": {
-                "man-at-arms": {
-                    "long-swordsman": {
-                        "two-handed-swordsman": {
+                "man_at_arms": {
+                    "long_swordsman": {
+                        "two_handed_swordsman": {
                             "champion": null
                         }
                     }
@@ -6874,8 +7179,8 @@
             "stable": {
                 "bloodlines": null,
                 "camel": {
-                    "heavy-camel": {
-                        "imperial-camel": null
+                    "heavy_camel": {
+                        "imperial_camel": null
                     }
                 },
                 "husbandry": null,
@@ -6884,8 +7189,8 @@
                         "paladin": null
                     }
                 },
-                "scout-cavalry": {
-                    "light-cavalry": {
+                "scout_cavalry": {
+                    "light_cavalry": {
                         "hussar": null
                     }
                 }
@@ -6894,242 +7199,242 @@
         },
         "blacksmith": {
             "fletching": {
-                "bodkin-arrow": {
+                "bodkin_arrow": {
                     "bracer": null
                 }
             },
             "forging": {
-                "iron-casting": {
-                    "blast-furnace": null
+                "iron_casting": {
+                    "blast_furnace": null
                 }
             },
-            "padded-archer-armor": {
-                "leather-archer-armor": {
-                    "ring-archer-armor": null
+            "padded_archer_armor": {
+                "leather_archer_armor": {
+                    "ring_archer_armor": null
                 }
             },
-            "scale-barding-armor": {
-                "chain-barding-armor": {
-                    "plate-barding-armor": null
+            "scale_barding_armor": {
+                "chain_barding_armor": {
+                    "plate_barding_armor": null
                 }
             },
-            "scale-mail-armor": {
-                "chain-mail-armor": {
-                    "plate-mail-armor": null
+            "scale_mail_armor": {
+                "chain_mail_armor": {
+                    "plate_mail_armor": null
                 }
             },
-            "siege-workshop": {
-                "battering-ram": {
-                    "capped-ram": {
-                        "siege-ram": null
+            "siege_workshop": {
+                "battering_ram": {
+                    "capped_ram": {
+                        "siege_ram": null
                     }
                 },
-                "bombard-cannon": null,
+                "bombard_cannon": null,
                 "mangonel": {
                     "onager": {
-                        "siege-onager": null
+                        "siege_onager": null
                     }
                 },
                 "scorpion": {
-                    "heavy-scorpion": null
+                    "heavy_scorpion": null
                 },
-                "siege-tower": null
+                "siege_tower": null
             }
         },
-        "bombard-tower": null,
+        "bombard_tower": null,
         "castle": {
             "anarchy": null,
-            "andean-sling": null,
+            "andean_sling": null,
             "arquebus": null,
             "artillary": null,
             "atheism": null,
             "atlatl": null,
-            "bearded-axe": null,
+            "bearded_axe": null,
             "berserk": {
-                "elite-berserk": null
+                "elite_berserk": null
             },
             "berserkergang": null,
-            "boiling-oil": null,
+            "boiling_oil": null,
             "boyar": {
-                "elite-boyar": null
+                "elite_boyar": null
             },
-            "camel-archer": {
-                "elite-camel-archer": null
+            "camel_archer": {
+                "elite_camel_archer": null
             },
             "carrack": null,
             "chieftains": null,
             "chivalry": null,
-            "chu-ko-nu": {
-                "elite-chu-ko-nu": null
+            "chu_ko_nu": {
+                "elite_chu_ko_nu": null
             },
             "condottiero": null,
             "conquistador": {
-                "elite-conquistador": null
+                "elite_conquistador": null
             },
             "conscription": null,
             "couriers": null,
             "crenellations": null,
             "drill": null,
             "druzhina": null,
-            "el-dorado": null,
-            "elephant-archer": {
-                "elite-elephant-archer": null
+            "el_dorado": null,
+            "elephant_archer": {
+                "elite_elephant_archer": null
             },
             "farimba": null,
-            "furor-celtica": null,
-            "garland-wars": null,
+            "furor_celtica": null,
+            "garland_wars": null,
             "gbeto": {
-                "elite-gbeto": null
+                "elite_gbeto": null
             },
-            "genoese-crossbowman": {
-                "elite-genoese-crossbowman": null
+            "genoese_crossbowman": {
+                "elite_genoese_crossbowman": null
             },
-            "great-wall": null,
-            "greek-fire": null,
+            "great_wall": null,
+            "greek_fire": null,
             "hoardings": null,
             "huskarl": {
-                "elite-huskarl": null
+                "elite_huskarl": null
             },
             "inquisition": null,
             "ironclad": null,
-            "jaguar-warrior": {
-                "elite-jaguar-warrior": null
+            "jaguar_warrior": {
+                "elite_jaguar_warrior": null
             },
             "janissary": {
-                "elite-janissary": null
+                "elite_janissary": null
             },
             "kamayuk": {
-                "elite-kamayuk": null
+                "elite_kamayuk": null
             },
             "kasbah": null,
             "kataparuto": null,
             "logistica": null,
             "longbowman": {
-                "elite-longbowman": null
+                "elite_longbowman": null
             },
             "madrasah": null,
-            "maghrabi-camels": null,
-            "magyar-huszar": {
-                "elite-magyar-huszar": null
+            "maghrabi_camels": null,
+            "magyar_huszar": {
+                "elite_magyar_huszar": null
             },
             "mahouts": null,
             "mameluke": {
-                "elite-mameluke": null
+                "elite_mameluke": null
             },
             "mangudai": {
-                "elite-mangudai": null
+                "elite_mangudai": null
             },
             "marauders": null,
             "mercenaries": null,
             "nomads": null,
-            "obsidian-arrows": null,
-            "organ-gun": {
-                "elite-organ-gun": null
+            "obsidian_arrows": null,
+            "organ_gun": {
+                "elite_organ_gun": null
             },
             "orthodoxy": null,
             "panokseon": null,
             "pavise": null,
             "perfusion": null,
             "petard": null,
-            "plumed-archer": {
-                "elite-plumed-archer": null
+            "plumed_archer": {
+                "elite_plumed_archer": null
             },
-            "recurve-bow": null,
+            "recurve_bow": null,
             "rocketry": null,
-            "royal-heirs": null,
+            "royal_heirs": null,
             "samurai": {
-                "elite-samurai": null
+                "elite_samurai": null
             },
             "sappers": null,
             "shatagni": null,
             "shinkichon": null,
-            "shotel-warrior": {
-                "elite-shotel-warrior": null
+            "shotel_warrior": {
+                "elite_shotel_warrior": null
             },
-            "silk-road": null,
+            "silk_road": null,
             "sipahi": null,
-            "spies-treason": null,
+            "spies_treason": null,
             "stronghold": null,
             "sultans": null,
             "supremacy": null,
             "tarkan": {
-                "elite-tarkan": null
+                "elite_tarkan": null
             },
-            "teutonic-knight": {
-                "elite-teutonic-knight": null
+            "teutonic_knight": {
+                "elite_teutonic_knight": null
             },
-            "throwing-axeman": {
-                "elite-throwing-axeman": null
+            "throwing_axeman": {
+                "elite_throwing_axeman": null
             },
             "tigui": null,
-            "torsion-engines": null,
+            "torsion_engines": null,
             "trebuchet": null,
-            "war-elephant": {
-                "elite-war-elephant": null
+            "war_elephant": {
+                "elite_war_elephant": null
             },
-            "war-wagon": {
-                "elite-war-wagon": null
+            "war_wagon": {
+                "elite_war_wagon": null
             },
             "warwolf": null,
-            "woad-raider": {
-                "elite-woad-raider": null
+            "woad_raider": {
+                "elite_woad_raider": null
             },
             "yasama": null,
             "yeomen": null,
             "zealotry": null
         },
         "dock": {
-            "cannon-galleon": {
-                "elite-cannon-galleon": null
+            "cannon_galleon": {
+                "elite_cannon_galleon": null
             },
             "caravel": {
-                "elite-caravel": null
+                "elite_caravel": null
             },
             "careening": {
-                "dry-dock": null
+                "dry_dock": null
             },
-            "demolition-raft": {
-                "demolition-ship": {
-                    "heavy-demolition-ship": null
+            "demolition_raft": {
+                "demolition_ship": {
+                    "heavy_demolition_ship": null
                 }
             },
-            "fire-galley": {
-                "fire-ship": {
-                    "fast-fire-ship": null
+            "fire_galley": {
+                "fire_ship": {
+                    "fast_fire_ship": null
                 }
             },
-            "fish-trap": null,
-            "fishing-ship": null,
+            "fish_trap": null,
+            "fishing_ship": null,
             "galley": {
-                "war-galley": {
+                "war_galley": {
                     "galleon": null
                 }
             },
             "gillnets": null,
             "longboat": {
-                "elite-longboat": null
+                "elite_longboat": null
             },
             "shipwright": null,
-            "trade-cog": null,
-            "transport-ship": null,
-            "turtle-ship": {
-                "elite-turtle-ship": null
+            "trade_cog": null,
+            "transport_ship": null,
+            "turtle_ship": {
+                "elite_turtle_ship": null
             }
         },
         "gate": null,
         "house": null,
-        "lumber-camp": {
-            "double-bit-axe": {
-                "bow-saw": {
-                    "two-man-saw": null
+        "lumber_camp": {
+            "double_bit_axe": {
+                "bow_saw": {
+                    "two_man_saw": null
                 }
             }
         },
         "mill": {
             "farm": null,
-            "horse-collar": {
-                "heavy-plow": {
-                    "crop-rotation": null
+            "horse_collar": {
+                "heavy_plow": {
+                    "crop_rotation": null
                 }
             },
             "market": {
@@ -7140,23 +7445,23 @@
                     "banking": null
                 },
                 "guilds": null,
-                "trade-cart": null
+                "trade_cart": null
             }
         },
-        "mining-camp": {
-            "gold-mining": {
-                "gold-shaft-mining": null
+        "mining_camp": {
+            "gold_mining": {
+                "gold_shaft_mining": null
             },
-            "stone-mining": {
-                "stone-shaft-mining": null
+            "stone_mining": {
+                "stone_shaft_mining": null
             }
         },
         "monastery": {
             "atonement": null,
-            "block-printing": null,
+            "block_printing": null,
             "faith": null,
             "fervor": null,
-            "herbal-medicine": null,
+            "herbal_medicine": null,
             "heresy": null,
             "illumination": null,
             "missionary": null,
@@ -7166,46 +7471,46 @@
             "theocracy": null
         },
         "outpost": null,
-        "palisade-gate": null,
-        "palisade-wall": null,
-        "stone-wall": {
-            "fortified-wall": null
+        "palisade_gate": null,
+        "palisade_wall": null,
+        "stone_wall": {
+            "fortified_wall": null
         },
-        "town-center": {
-            "feudal-age": {
-                "castle-age": {
-                    "imperial-age": null
+        "town_center": {
+            "feudal_age": {
+                "castle_age": {
+                    "imperial_age": null
                 }
             },
             "loom": null,
-            "town-watch": {
-                "town-patrol": null
+            "town_watch": {
+                "town_patrol": null
             },
             "villager": null,
             "wheelbarrow": {
-                "hand-cart": null
+                "hand_cart": null
             }
         },
         "university": {
             "arrowslits": null,
             "ballistics": null,
             "chemistry": {
-                "bombard-tower-tech": null
+                "bombard_tower_tech": null
             },
-            "fortified-wall-tech": null,
-            "guard-tower-tech": {
-                "keep-tech": null
+            "fortified_wall_tech": null,
+            "guard_tower_tech": {
+                "keep_tech": null
             },
-            "heated-shot": null,
+            "heated_shot": null,
             "masonry": {
                 "architecture": null
             },
-            "murder-holes": null,
-            "siege-engineers": null,
-            "treadmill-crane": null
+            "murder_holes": null,
+            "siege_engineers": null,
+            "treadmill_crane": null
         },
-        "watch-tower": {
-            "guard-tower": {
+        "watch_tower": {
+            "guard_tower": {
                 "keep": null
             }
         },

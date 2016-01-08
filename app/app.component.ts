@@ -13,7 +13,7 @@ import {TreeComponent} from './tree.component';
     directives: [TreeComponent]
 })
 export class AppComponent implements OnInit {
-    constructor(private _dataService: DataService) { }
+    constructor(private _dataService: DataService) {}
 
     ngOnInit() {
         this._dataService.getData().then(data => console.log(data));

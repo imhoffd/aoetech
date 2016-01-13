@@ -7,6 +7,9 @@
   "installed": {
     "d3/d3.d.ts": {
       "commit": "fe563dff3428bac1260d1794e2c2ecf8f097535a"
+    },
+    "svg-pan-zoom/svg-pan-zoom.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
     }
   }
 }

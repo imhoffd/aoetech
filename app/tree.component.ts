@@ -65,8 +65,43 @@ export class TreeComponent implements OnInit {
 
     protected civilizations: Civilization[];
     protected technologies: Technology[];
+    protected technologyTree: Object;
+    protected technologyMap: Map<string, Technology> = new Map<string, Technology>();
 
     constructor(protected element: ElementRef, protected dataService: DataService) {}
+
+    public ngOnInit() {
+        this.svgElement = this.element.nativeElement.querySelector('svg');
+        window.addEventListener('resize', this.windowResizeHandler);
+        this.windowResizeHandler(undefined);
+
+        this.dataService.getData().then(data => {
+            this.civilizations = data.civilizations;
+            this.technologies = data.technologies;
+            this.technologies.forEach((tech: Technology) => this.technologyMap.set(tech.id, tech));
+            this.technologyTree = data.technology_tree;
+            this.fulfillTechnologyTree(this.technologyTree);
+            console.log(this.technologyTree);
+
+            this.panZoomElement = svgPanZoom(this.svgElement, {
+                fit: false
+            });
+        });
+    }
+
+    public fulfillTechnologyTree(techTree: Object) {
+        for (let i in techTree) {
+            if (techTree[i]) {
+                Object.assign(techTree[i], this.technologyMap.get(i));
+            } else {
+                techTree[i] = this.technologyMap.get(i);
+            }
+
+            if (techTree[i].hasOwnProperty('children')) {
+                this.fulfillTechnologyTree(techTree[i].children);
+            }
+        }
+    }
 
     protected svgMouseDown(event: MouseEvent) {
         var element = document.elementFromPoint(event.screenX, event.screenY);
@@ -89,20 +124,5 @@ export class TreeComponent implements OnInit {
             width: window.innerWidth,
             height: window.innerHeight
         };
-    }
-
-    ngOnInit() {
-        this.svgElement = this.element.nativeElement.querySelector('svg');
-        window.addEventListener('resize', this.windowResizeHandler);
-        this.windowResizeHandler(undefined);
-
-        this.dataService.getData().then(data => {
-            this.civilizations = data.civilizations;
-            this.technologies = data.technologies;
-
-            this.panZoomElement = svgPanZoom(this.svgElement, {
-                fit: false
-            });
-        });
     }
 }

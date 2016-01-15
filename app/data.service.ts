@@ -19,11 +19,13 @@ export interface Technology {
         structure: TechnologyId;
     };
     type: TechnologyType;
+    children: Technology[];
 }
 
 export interface Data {
     civilizations: Civilization[];
     technologies: Technology[];
+    technology_tree: Object;
 }
 
 @Injectable()

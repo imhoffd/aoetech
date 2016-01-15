@@ -7134,384 +7134,590 @@
     ],
     "technology_tree": {
         "barracks": {
-            "archery_range": {
-                "archer": {
-                    "crossbowman": {
-                        "arbalest": null
+            "children": {
+                "archery_range": {
+                    "children": {
+                        "archer": {
+                            "children": {
+                                "crossbowman": {
+                                    "children": {
+                                        "arbalest": null
+                                    }
+                                }
+                            }
+                        },
+                        "cavalry_archer": {
+                            "children": {
+                                "heavy_cavalry_archer": null
+                            }
+                        },
+                        "genitour": {
+                            "children": {
+                                "elite_genitour": null
+                            }
+                        },
+                        "hand_cannoneer": null,
+                        "parthian_tactics": null,
+                        "skirmisher": {
+                            "children": {
+                                "elite_skirmisher": null
+                            }
+                        },
+                        "slinger": null,
+                        "thumb_ring": null
                     }
                 },
-                "cavalry_archer": {
-                    "heavy_cavalry_archer": null
-                },
-                "genitour": {
-                    "elite_genitour": null
-                },
-                "hand_cannoneer": null,
-                "parthian_tactics": null,
-                "skirmisher": {
-                    "elite_skirmisher": null
-                },
-                "slinger": null,
-                "thumb_ring": null
-            },
-            "arson": null,
-            "condottiero": null,
-            "eagle_scout": {
-                "eagle_warrior": {
-                    "elite_eagle_warrior": null
-                }
-            },
-            "militia": {
-                "man_at_arms": {
-                    "long_swordsman": {
-                        "two_handed_swordsman": {
-                            "champion": null
+                "arson": null,
+                "condottiero": null,
+                "eagle_scout": {
+                    "children": {
+                        "eagle_warrior": {
+                            "children": {
+                                "elite_eagle_warrior": null
+                            }
                         }
                     }
-                }
-            },
-            "spearman": {
-                "pikeman": {
-                    "halberdier": null
-                }
-            },
-            "squires": null,
-            "stable": {
-                "bloodlines": null,
-                "camel": {
-                    "heavy_camel": {
-                        "imperial_camel": null
+                },
+                "militia": {
+                    "children": {
+                        "man_at_arms": {
+                            "children": {
+                                "long_swordsman": {
+                                    "children": {
+                                        "two_handed_swordsman": {
+                                            "children": {
+                                                "champion": null
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 },
-                "husbandry": null,
-                "knight": {
-                    "cavalier": {
-                        "paladin": null
+                "spearman": {
+                    "children": {
+                        "pikeman": {
+                            "children": {
+                                "halberdier": null
+                            }
+                        }
                     }
                 },
-                "scout_cavalry": {
-                    "light_cavalry": {
-                        "hussar": null
+                "squires": null,
+                "stable": {
+                    "children": {
+                        "bloodlines": null,
+                        "camel": {
+                            "children": {
+                                "heavy_camel": {
+                                    "children": {
+                                        "imperial_camel": null
+                                    }
+                                }
+                            }
+                        },
+                        "husbandry": null,
+                        "knight": {
+                            "children": {
+                                "cavalier": {
+                                    "children": {
+                                        "paladin": null
+                                    }
+                                }
+                            }
+                        },
+                        "scout_cavalry": {
+                            "children": {
+                                "light_cavalry": {
+                                    "children": {
+                                        "hussar": null
+                                    }
+                                }
+                            }
+                        }
                     }
-                }
-            },
-            "tracking": null
+                },
+                "tracking": null
+            }
         },
         "blacksmith": {
-            "fletching": {
-                "bodkin_arrow": {
-                    "bracer": null
-                }
-            },
-            "forging": {
-                "iron_casting": {
-                    "blast_furnace": null
-                }
-            },
-            "padded_archer_armor": {
-                "leather_archer_armor": {
-                    "ring_archer_armor": null
-                }
-            },
-            "scale_barding_armor": {
-                "chain_barding_armor": {
-                    "plate_barding_armor": null
-                }
-            },
-            "scale_mail_armor": {
-                "chain_mail_armor": {
-                    "plate_mail_armor": null
-                }
-            },
-            "siege_workshop": {
-                "battering_ram": {
-                    "capped_ram": {
-                        "siege_ram": null
+            "children": {
+                "fletching": {
+                    "children": {
+                        "bodkin_arrow": {
+                            "children": {
+                                "bracer": null
+                            }
+                        }
                     }
                 },
-                "bombard_cannon": null,
-                "mangonel": {
-                    "onager": {
-                        "siege_onager": null
+                "forging": {
+                    "children": {
+                        "iron_casting": {
+                            "children": {
+                                "blast_furnace": null
+                            }
+                        }
                     }
                 },
-                "scorpion": {
-                    "heavy_scorpion": null
+                "padded_archer_armor": {
+                    "children": {
+                        "leather_archer_armor": {
+                            "children": {
+                                "ring_archer_armor": null
+                            }
+                        }
+                    }
                 },
-                "siege_tower": null
+                "scale_barding_armor": {
+                    "children": {
+                        "chain_barding_armor": {
+                            "children": {
+                                "plate_barding_armor": null
+                            }
+                        }
+                    }
+                },
+                "scale_mail_armor": {
+                    "children": {
+                        "chain_mail_armor": {
+                            "children": {
+                                "plate_mail_armor": null
+                            }
+                        }
+                    }
+                },
+                "siege_workshop": {
+                    "children": {
+                        "battering_ram": {
+                            "children": {
+                                "capped_ram": {
+                                    "children": {
+                                        "siege_ram": null
+                                    }
+                                }
+                            }
+                        },
+                        "bombard_cannon": null,
+                        "mangonel": {
+                            "children": {
+                                "onager": {
+                                    "children": {
+                                        "siege_onager": null
+                                    }
+                                }
+                            }
+                        },
+                        "scorpion": {
+                            "children": {
+                                "heavy_scorpion": null
+                            }
+                        },
+                        "siege_tower": null
+                    }
+                }
             }
         },
         "bombard_tower": null,
         "castle": {
-            "anarchy": null,
-            "andean_sling": null,
-            "arquebus": null,
-            "artillary": null,
-            "atheism": null,
-            "atlatl": null,
-            "bearded_axe": null,
-            "berserk": {
-                "elite_berserk": null
-            },
-            "berserkergang": null,
-            "boiling_oil": null,
-            "boyar": {
-                "elite_boyar": null
-            },
-            "camel_archer": {
-                "elite_camel_archer": null
-            },
-            "carrack": null,
-            "chieftains": null,
-            "chivalry": null,
-            "chu_ko_nu": {
-                "elite_chu_ko_nu": null
-            },
-            "condottiero": null,
-            "conquistador": {
-                "elite_conquistador": null
-            },
-            "conscription": null,
-            "couriers": null,
-            "crenellations": null,
-            "drill": null,
-            "druzhina": null,
-            "el_dorado": null,
-            "elephant_archer": {
-                "elite_elephant_archer": null
-            },
-            "farimba": null,
-            "furor_celtica": null,
-            "garland_wars": null,
-            "gbeto": {
-                "elite_gbeto": null
-            },
-            "genoese_crossbowman": {
-                "elite_genoese_crossbowman": null
-            },
-            "great_wall": null,
-            "greek_fire": null,
-            "hoardings": null,
-            "huskarl": {
-                "elite_huskarl": null
-            },
-            "inquisition": null,
-            "ironclad": null,
-            "jaguar_warrior": {
-                "elite_jaguar_warrior": null
-            },
-            "janissary": {
-                "elite_janissary": null
-            },
-            "kamayuk": {
-                "elite_kamayuk": null
-            },
-            "kasbah": null,
-            "kataparuto": null,
-            "logistica": null,
-            "longbowman": {
-                "elite_longbowman": null
-            },
-            "madrasah": null,
-            "maghrabi_camels": null,
-            "magyar_huszar": {
-                "elite_magyar_huszar": null
-            },
-            "mahouts": null,
-            "mameluke": {
-                "elite_mameluke": null
-            },
-            "mangudai": {
-                "elite_mangudai": null
-            },
-            "marauders": null,
-            "mercenaries": null,
-            "nomads": null,
-            "obsidian_arrows": null,
-            "organ_gun": {
-                "elite_organ_gun": null
-            },
-            "orthodoxy": null,
-            "panokseon": null,
-            "pavise": null,
-            "perfusion": null,
-            "petard": null,
-            "plumed_archer": {
-                "elite_plumed_archer": null
-            },
-            "recurve_bow": null,
-            "rocketry": null,
-            "royal_heirs": null,
-            "samurai": {
-                "elite_samurai": null
-            },
-            "sappers": null,
-            "shatagni": null,
-            "shinkichon": null,
-            "shotel_warrior": {
-                "elite_shotel_warrior": null
-            },
-            "silk_road": null,
-            "sipahi": null,
-            "spies_treason": null,
-            "stronghold": null,
-            "sultans": null,
-            "supremacy": null,
-            "tarkan": {
-                "elite_tarkan": null
-            },
-            "teutonic_knight": {
-                "elite_teutonic_knight": null
-            },
-            "throwing_axeman": {
-                "elite_throwing_axeman": null
-            },
-            "tigui": null,
-            "torsion_engines": null,
-            "trebuchet": null,
-            "war_elephant": {
-                "elite_war_elephant": null
-            },
-            "war_wagon": {
-                "elite_war_wagon": null
-            },
-            "warwolf": null,
-            "woad_raider": {
-                "elite_woad_raider": null
-            },
-            "yasama": null,
-            "yeomen": null,
-            "zealotry": null
+            "children": {
+                "anarchy": null,
+                "andean_sling": null,
+                "arquebus": null,
+                "artillary": null,
+                "atheism": null,
+                "atlatl": null,
+                "bearded_axe": null,
+                "berserk": {
+                    "children": {
+                        "elite_berserk": null
+                    }
+                },
+                "berserkergang": null,
+                "boiling_oil": null,
+                "boyar": {
+                    "children": {
+                        "elite_boyar": null
+                    }
+                },
+                "camel_archer": {
+                    "children": {
+                        "elite_camel_archer": null
+                    }
+                },
+                "carrack": null,
+                "chieftains": null,
+                "chivalry": null,
+                "chu_ko_nu": {
+                    "children": {
+                        "elite_chu_ko_nu": null
+                    }
+                },
+                "condottiero": null,
+                "conquistador": {
+                    "children": {
+                        "elite_conquistador": null
+                    }
+                },
+                "conscription": null,
+                "couriers": null,
+                "crenellations": null,
+                "drill": null,
+                "druzhina": null,
+                "el_dorado": null,
+                "elephant_archer": {
+                    "children": {
+                        "elite_elephant_archer": null
+                    }
+                },
+                "farimba": null,
+                "furor_celtica": null,
+                "garland_wars": null,
+                "gbeto": {
+                    "children": {
+                        "elite_gbeto": null
+                    }
+                },
+                "genoese_crossbowman": {
+                    "children": {
+                        "elite_genoese_crossbowman": null
+                    }
+                },
+                "great_wall": null,
+                "greek_fire": null,
+                "hoardings": null,
+                "huskarl": {
+                    "children": {
+                        "elite_huskarl": null
+                    }
+                },
+                "inquisition": null,
+                "ironclad": null,
+                "jaguar_warrior": {
+                    "children": {
+                        "elite_jaguar_warrior": null
+                    }
+                },
+                "janissary": {
+                    "children": {
+                        "elite_janissary": null
+                    }
+                },
+                "kamayuk": {
+                    "children": {
+                        "elite_kamayuk": null
+                    }
+                },
+                "kasbah": null,
+                "kataparuto": null,
+                "logistica": null,
+                "longbowman": {
+                    "children": {
+                        "elite_longbowman": null
+                    }
+                },
+                "madrasah": null,
+                "maghrabi_camels": null,
+                "magyar_huszar": {
+                    "children": {
+                        "elite_magyar_huszar": null
+                    }
+                },
+                "mahouts": null,
+                "mameluke": {
+                    "children": {
+                        "elite_mameluke": null
+                    }
+                },
+                "mangudai": {
+                    "children": {
+                        "elite_mangudai": null
+                    }
+                },
+                "marauders": null,
+                "mercenaries": null,
+                "nomads": null,
+                "obsidian_arrows": null,
+                "organ_gun": {
+                    "children": {
+                        "elite_organ_gun": null
+                    }
+                },
+                "orthodoxy": null,
+                "panokseon": null,
+                "pavise": null,
+                "perfusion": null,
+                "petard": null,
+                "plumed_archer": {
+                    "children": {
+                        "elite_plumed_archer": null
+                    }
+                },
+                "recurve_bow": null,
+                "rocketry": null,
+                "royal_heirs": null,
+                "samurai": {
+                    "children": {
+                        "elite_samurai": null
+                    }
+                },
+                "sappers": null,
+                "shatagni": null,
+                "shinkichon": null,
+                "shotel_warrior": {
+                    "children": {
+                        "elite_shotel_warrior": null
+                    }
+                },
+                "silk_road": null,
+                "sipahi": null,
+                "spies_treason": null,
+                "stronghold": null,
+                "sultans": null,
+                "supremacy": null,
+                "tarkan": {
+                    "children": {
+                        "elite_tarkan": null
+                    }
+                },
+                "teutonic_knight": {
+                    "children": {
+                        "elite_teutonic_knight": null
+                    }
+                },
+                "throwing_axeman": {
+                    "children": {
+                        "elite_throwing_axeman": null
+                    }
+                },
+                "tigui": null,
+                "torsion_engines": null,
+                "trebuchet": null,
+                "war_elephant": {
+                    "children": {
+                        "elite_war_elephant": null
+                    }
+                },
+                "war_wagon": {
+                    "children": {
+                        "elite_war_wagon": null
+                    }
+                },
+                "warwolf": null,
+                "woad_raider": {
+                    "children": {
+                        "elite_woad_raider": null
+                    }
+                },
+                "yasama": null,
+                "yeomen": null,
+                "zealotry": null
+            }
         },
         "dock": {
-            "cannon_galleon": {
-                "elite_cannon_galleon": null
-            },
-            "caravel": {
-                "elite_caravel": null
-            },
-            "careening": {
-                "dry_dock": null
-            },
-            "demolition_raft": {
-                "demolition_ship": {
-                    "heavy_demolition_ship": null
+            "children": {
+                "cannon_galleon": {
+                    "children": {
+                        "elite_cannon_galleon": null
+                    }
+                },
+                "caravel": {
+                    "children": {
+                        "elite_caravel": null
+                    }
+                },
+                "careening": {
+                    "children": {
+                        "dry_dock": null
+                    }
+                },
+                "demolition_raft": {
+                    "children": {
+                        "demolition_ship": {
+                            "children": {
+                                "heavy_demolition_ship": null
+                            }
+                        }
+                    }
+                },
+                "fire_galley": {
+                    "children": {
+                        "fire_ship": {
+                            "children": {
+                                "fast_fire_ship": null
+                            }
+                        }
+                    }
+                },
+                "fish_trap": null,
+                "fishing_ship": null,
+                "galley": {
+                    "children": {
+                        "war_galley": {
+                            "children": {
+                                "galleon": null
+                            }
+                        }
+                    }
+                },
+                "gillnets": null,
+                "longboat": {
+                    "children": {
+                        "elite_longboat": null
+                    }
+                },
+                "shipwright": null,
+                "trade_cog": null,
+                "transport_ship": null,
+                "turtle_ship": {
+                    "children": {
+                        "elite_turtle_ship": null
+                    }
                 }
-            },
-            "fire_galley": {
-                "fire_ship": {
-                    "fast_fire_ship": null
-                }
-            },
-            "fish_trap": null,
-            "fishing_ship": null,
-            "galley": {
-                "war_galley": {
-                    "galleon": null
-                }
-            },
-            "gillnets": null,
-            "longboat": {
-                "elite_longboat": null
-            },
-            "shipwright": null,
-            "trade_cog": null,
-            "transport_ship": null,
-            "turtle_ship": {
-                "elite_turtle_ship": null
             }
         },
         "gate": null,
         "house": null,
         "lumber_camp": {
-            "double_bit_axe": {
-                "bow_saw": {
-                    "two_man_saw": null
+            "children": {
+                "double_bit_axe": {
+                    "children": {
+                        "bow_saw": {
+                            "children": {
+                                "two_man_saw": null
+                            }
+                        }
+                    }
                 }
             }
         },
         "mill": {
-            "farm": null,
-            "horse_collar": {
-                "heavy_plow": {
-                    "crop_rotation": null
+            "children": {
+                "farm": null,
+                "horse_collar": {
+                    "children": {
+                        "heavy_plow": {
+                            "children": {
+                                "crop_rotation": null
+                            }
+                        }
+                    }
+                },
+                "market": {
+                    "children": {
+                        "cartography": {
+                            "children": {
+                                "caravan": null
+                            }
+                        },
+                        "coinage": {
+                            "children": {
+                                "banking": null
+                            }
+                        },
+                        "guilds": null,
+                        "trade_cart": null
+                    }
                 }
-            },
-            "market": {
-                "cartography": {
-                    "caravan": null
-                },
-                "coinage": {
-                    "banking": null
-                },
-                "guilds": null,
-                "trade_cart": null
             }
         },
         "mining_camp": {
-            "gold_mining": {
-                "gold_shaft_mining": null
-            },
-            "stone_mining": {
-                "stone_shaft_mining": null
+            "children": {
+                "gold_mining": {
+                    "children": {
+                        "gold_shaft_mining": null
+                    }
+                },
+                "stone_mining": {
+                    "children": {
+                        "stone_shaft_mining": null
+                    }
+                }
             }
         },
         "monastery": {
-            "atonement": null,
-            "block_printing": null,
-            "faith": null,
-            "fervor": null,
-            "herbal_medicine": null,
-            "heresy": null,
-            "illumination": null,
-            "missionary": null,
-            "monk": null,
-            "redemption": null,
-            "sanctity": null,
-            "theocracy": null
+            "children": {
+                "atonement": null,
+                "block_printing": null,
+                "faith": null,
+                "fervor": null,
+                "herbal_medicine": null,
+                "heresy": null,
+                "illumination": null,
+                "missionary": null,
+                "monk": null,
+                "redemption": null,
+                "sanctity": null,
+                "theocracy": null
+            }
         },
         "outpost": null,
         "palisade_gate": null,
         "palisade_wall": null,
         "stone_wall": {
-            "fortified_wall": null
+            "children": {
+                "fortified_wall": null
+            }
         },
         "town_center": {
-            "feudal_age": {
-                "castle_age": {
-                    "imperial_age": null
+            "children": {
+                "feudal_age": {
+                    "children": {
+                        "castle_age": {
+                            "children": {
+                                "imperial_age": null
+                            }
+                        }
+                    }
+                },
+                "loom": null,
+                "town_watch": {
+                    "children": {
+                        "town_patrol": null
+                    }
+                },
+                "villager": null,
+                "wheelbarrow": {
+                    "children": {
+                        "hand_cart": null
+                    }
                 }
-            },
-            "loom": null,
-            "town_watch": {
-                "town_patrol": null
-            },
-            "villager": null,
-            "wheelbarrow": {
-                "hand_cart": null
             }
         },
         "university": {
-            "arrowslits": null,
-            "ballistics": null,
-            "chemistry": {
-                "bombard_tower_tech": null
-            },
-            "fortified_wall_tech": null,
-            "guard_tower_tech": {
-                "keep_tech": null
-            },
-            "heated_shot": null,
-            "masonry": {
-                "architecture": null
-            },
-            "murder_holes": null,
-            "siege_engineers": null,
-            "treadmill_crane": null
+            "children": {
+                "arrowslits": null,
+                "ballistics": null,
+                "chemistry": {
+                    "children": {
+                        "bombard_tower_tech": null
+                    }
+                },
+                "fortified_wall_tech": null,
+                "guard_tower_tech": {
+                    "children": {
+                        "keep_tech": null
+                    }
+                },
+                "heated_shot": null,
+                "masonry": {
+                    "children": {
+                        "architecture": null
+                    }
+                },
+                "murder_holes": null,
+                "siege_engineers": null,
+                "treadmill_crane": null
+            }
         },
         "watch_tower": {
-            "guard_tower": {
-                "keep": null
+            "children": {
+                "guard_tower": {
+                    "children": {
+                        "keep": null
+                    }
+                }
             }
         },
         "wonder": null

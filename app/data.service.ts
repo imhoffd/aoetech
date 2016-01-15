@@ -12,12 +12,12 @@ export interface Civilization {
 
 export interface Technology {
     id: TechnologyId;
-    name: string,
+    name: string;
     prerequisites: {
         age: number;
         civilizations: CivilizationId[];
         structure: TechnologyId;
-    },
+    };
     type: TechnologyType;
 }
 

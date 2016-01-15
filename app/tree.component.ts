@@ -21,13 +21,12 @@ class TechComponent {
             xmlns:xlink="http://www.w3.org/1999/xlink"
             (mousedown)="svgMouseDown($event)"
             (mouseup)="svgMouseUp($event)"
-            [attr.width]="_windowSize.width"
-            [attr.height]="_windowSize.height"
-            [class.grab]="!_grabbing"
-            [class.grabbing]="_grabbing">
+            [attr.width]="windowSize.width"
+            [attr.height]="windowSize.height"
+            [class.grabbing]="grabbing">
 
             <g tech
-                *ngFor="#technology of _technologies #i = index"
+                *ngFor="#technology of technologies #i = index"
                 [attr.transform]="'translate(' + 10 + ',' + i * 10 + ')'"
                 [technology]="technology">
             </g>
@@ -36,9 +35,6 @@ class TechComponent {
     styles: [`
         svg {
             background-color: beige;
-        }
-
-        svg.grab {
             cursor: -webkit-grab;
             cursor: -moz-grab;
             cursor: grab;
@@ -58,54 +54,54 @@ class TechComponent {
     providers: [ElementRef, DataService]
 })
 export class TreeComponent implements OnInit {
-    protected _svgElement: HTMLElement;
-    protected _panZoomElement: typeof svgPanZoom;
-    protected _grabbing: boolean = false;
+    protected svgElement: HTMLElement;
+    protected panZoomElement: typeof svgPanZoom;
+    protected grabbing: boolean = false;
 
-    protected _windowSize: {
+    protected windowSize: {
         width: number;
         height: number;
     };
 
-    protected _civilizations: Civilization[];
-    protected _technologies: Technology[];
+    protected civilizations: Civilization[];
+    protected technologies: Technology[];
 
-    constructor(protected _element: ElementRef, protected _dataService: DataService) {
-        this._svgElement = _element.nativeElement.querySelector('svg');
+    constructor(protected element: ElementRef, protected dataService: DataService) {
+        this.svgElement = element.nativeElement.querySelector('svg');
     }
 
     protected svgMouseDown(event: MouseEvent) {
         var element = document.elementFromPoint(event.screenX, event.screenY);
 
-        if (element === this._svgElement) {
-            this._grabbing = true;
-            this._panZoomElement.enablePan();
+        if (element === this.svgElement) {
+            this.grabbing = true;
+            this.panZoomElement.enablePan();
         } else {
-            this._panZoomElement.disablePan();
+            this.panZoomElement.disablePan();
         }
     }
 
     protected svgMouseUp(event: MouseEvent) {
-        this._grabbing = false;
-        this._panZoomElement.enablePan();
+        this.grabbing = false;
+        this.panZoomElement.enablePan();
     }
 
-    protected _windowResizeHandler(event) {
-        this._windowSize = {
+    protected windowResizeHandler(event) {
+        this.windowSize = {
             width: window.innerWidth,
             height: window.innerHeight
         };
     }
 
     ngOnInit() {
-        window.addEventListener('resize', this._windowResizeHandler);
-        this._windowResizeHandler(undefined);
+        window.addEventListener('resize', this.windowResizeHandler);
+        this.windowResizeHandler(undefined);
 
-        this._dataService.getData().then(data => {
-            this._civilizations = data.civilizations;
-            this._technologies = data.technologies;
+        this.dataService.getData().then(data => {
+            this.civilizations = data.civilizations;
+            this.technologies = data.technologies;
 
-            this._panZoomElement = svgPanZoom(this._svgElement, {
+            this.panZoomElement = svgPanZoom(this.svgElement, {
                 fit: false
             });
         });

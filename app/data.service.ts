@@ -28,14 +28,14 @@ export interface Data {
 
 @Injectable()
 export class DataService {
-    protected _dataPromise: Promise<Object>;
+    protected dataPromise: Promise<Object>;
 
-    constructor(protected _http: Http) { }
+    constructor(protected http: Http) { }
 
     public getData() : Promise<Data> {
-        if (this._dataPromise === undefined) {
-            this._dataPromise = new Promise<Data>(resolve =>
-                this._http.get('/app/data.json')
+        if (this.dataPromise === undefined) {
+            this.dataPromise = new Promise<Data>(resolve =>
+                this.http.get('/app/data.json')
                     .map(res => res.json())
                     .subscribe(
                         data => resolve(data),
@@ -44,6 +44,6 @@ export class DataService {
             );
         }
 
-        return this._dataPromise;
+        return this.dataPromise;
     }
 }

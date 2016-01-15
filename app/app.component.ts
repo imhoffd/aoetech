@@ -13,9 +13,9 @@ import {TreeComponent} from './tree.component';
     directives: [TreeComponent]
 })
 export class AppComponent implements OnInit {
-    constructor(protected _dataService: DataService) {}
+    constructor(protected dataService: DataService) {}
 
     ngOnInit() {
-        this._dataService.getData().then(data => console.log(data));
+        this.dataService.getData().then(data => console.log(data));
     }
 }

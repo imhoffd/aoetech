@@ -66,9 +66,7 @@ export class TreeComponent implements OnInit {
     protected civilizations: Civilization[];
     protected technologies: Technology[];
 
-    constructor(protected element: ElementRef, protected dataService: DataService) {
-        this.svgElement = element.nativeElement.querySelector('svg');
-    }
+    constructor(protected element: ElementRef, protected dataService: DataService) {}
 
     protected svgMouseDown(event: MouseEvent) {
         var element = document.elementFromPoint(event.screenX, event.screenY);
@@ -94,6 +92,7 @@ export class TreeComponent implements OnInit {
     }
 
     ngOnInit() {
+        this.svgElement = this.element.nativeElement.querySelector('svg');
         window.addEventListener('resize', this.windowResizeHandler);
         this.windowResizeHandler(undefined);
 

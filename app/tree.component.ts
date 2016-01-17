@@ -1,16 +1,28 @@
 import {Component, ElementRef, OnInit} from 'angular2/core';
-import {DataService, Civilization, Technology} from './data.service';
+import {DataService, Civilization, TechnologyId, Technology} from './data.service';
 
 @Component({
-selector: '[tech]',
+    selector: '[tech]',
     template: `
         <svg:g>
             <text>{{technology.name}}</text>
+
+            <g tech
+                *ngFor="#t of technologyChildrenValues"
+                [technology]="t">
+            </g>
         </svg:g>
     `,
+    directives: [TechComponent],
     inputs: ['technology']
 })
-class TechComponent {
+export class TechComponent implements OnInit {
+    protected technology: Technology;
+    protected technologyChildrenValues: Array<Technology>;
+
+    public ngOnInit() {
+        this.technologyChildrenValues = Array.from(this.technology.children.values());
+    }
 }
 
 @Component({
@@ -26,8 +38,8 @@ class TechComponent {
             [class.grabbing]="grabbing">
 
             <g tech
-                *ngFor="#technology of technologies #i = index"
-                [attr.transform]="'translate(' + 10 + ',' + i * 10 + ')'"
+                *ngFor="#technology of technologyTreeValues #i=index"
+                [attr.transform]="'translate(' + 10 + ',' + i * 100 + ')'"
                 [technology]="technology">
             </g>
         </svg>
@@ -65,8 +77,9 @@ export class TreeComponent implements OnInit {
 
     protected civilizations: Civilization[];
     protected technologies: Technology[];
-    protected technologyTree: Object;
-    protected technologyMap: Map<string, Technology> = new Map<string, Technology>();
+    protected technologyTree: Map<TechnologyId, Technology>;
+    protected technologyTreeValues: Array<Technology>;
+    protected technologyMap: Map<TechnologyId, Technology>;
 
     constructor(protected element: ElementRef, protected dataService: DataService) {}
 
@@ -76,12 +89,18 @@ export class TreeComponent implements OnInit {
         this.windowResizeHandler(undefined);
 
         this.dataService.getData().then(data => {
+            let techMap = new Map<TechnologyId, Technology>();
+            let techTree = new Map<TechnologyId, Technology>();
+
             this.civilizations = data.civilizations;
             this.technologies = data.technologies;
-            this.technologies.forEach((tech: Technology) => this.technologyMap.set(tech.id, tech));
-            this.technologyTree = data.technology_tree;
-            this.fulfillTechnologyTree(this.technologyTree);
-            console.log(this.technologyTree);
+
+            this.technologies.forEach((tech: Technology) => techMap.set(tech.id, tech));
+            this.technologyMap = techMap;
+
+            this.fulfillTechnologyTree(techTree, data.technology_tree);
+            this.technologyTree = techTree;
+            this.technologyTreeValues = Array.from(this.technologyTree.values());
 
             this.panZoomElement = svgPanZoom(this.svgElement, {
                 fit: false
@@ -89,16 +108,16 @@ export class TreeComponent implements OnInit {
         });
     }
 
-    public fulfillTechnologyTree(techTree: Object) {
-        for (let i in techTree) {
-            if (techTree[i]) {
-                Object.assign(techTree[i], this.technologyMap.get(i));
-            } else {
-                techTree[i] = this.technologyMap.get(i);
-            }
+    protected fulfillTechnologyTree(techTree: Map<TechnologyId, Technology>, dataTree: Object) {
+        for (let i in dataTree) {
+            let tech = this.technologyMap.get(i);
+            let data = dataTree[i];
 
-            if (techTree[i].hasOwnProperty('children')) {
-                this.fulfillTechnologyTree(techTree[i].children);
+            tech.children = new Map<TechnologyId, Technology>();
+            techTree.set(i, tech);
+
+            if (data && data.hasOwnProperty('children')) {
+                this.fulfillTechnologyTree(tech.children, data.children);
             }
         }
     }

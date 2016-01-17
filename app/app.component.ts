@@ -1,5 +1,5 @@
 import 'rxjs/add/operator/map';
-import {Component, OnInit} from 'angular2/core';
+import {Component} from 'angular2/core';
 import {DataService} from './data.service';
 import {TreeComponent} from './tree.component';
 
@@ -12,10 +12,6 @@ import {TreeComponent} from './tree.component';
     providers: [DataService],
     directives: [TreeComponent]
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
     constructor(protected dataService: DataService) {}
-
-    ngOnInit() {
-        this.dataService.getData().then(data => console.log(data));
-    }
 }

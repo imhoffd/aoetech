@@ -19,7 +19,7 @@ export interface Technology {
         structure: TechnologyId;
     };
     type: TechnologyType;
-    children: Technology[];
+    children: Map<TechnologyId, Technology>;
 }
 
 export interface Data {
@@ -32,7 +32,7 @@ export interface Data {
 export class DataService {
     protected dataPromise: Promise<Object>;
 
-    constructor(protected http: Http) { }
+    constructor(protected http: Http) {}
 
     public getData() : Promise<Data> {
         if (this.dataPromise === undefined) {
